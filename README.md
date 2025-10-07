@@ -1,9 +1,8 @@
 <h1 align="center">Hi 👋, I'm Siyuan Wang</h1>
 <h3 align="center">Exploring the world</h3>
 
-- 🔭 I’m currently working on **Robotics**
+- 🔭 I’m currently working on **Robotics & Internet of Things**
 
-<h3 align="left">Also, Internet of Things:</h3>
 <p align="left">
 </p>
 
