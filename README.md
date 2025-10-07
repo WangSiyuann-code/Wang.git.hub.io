@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **Robotics**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Also, Internet of Things:</h3>
 <p align="left">
 </p>
 
