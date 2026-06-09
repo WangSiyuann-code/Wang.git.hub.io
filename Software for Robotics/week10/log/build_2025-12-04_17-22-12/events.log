@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.001619] (the_revenant) JobQueued: {'identifier': 'the_revenant', 'dependencies': OrderedDict()}
+[0.002655] (the_revenant) JobStarted: {'identifier': 'the_revenant'}
+[0.097593] (-) TimerEvent: {}
+[0.198566] (-) TimerEvent: {}
+[0.299341] (-) TimerEvent: {}
+[0.400238] (-) TimerEvent: {}
+[0.501366] (-) TimerEvent: {}
+[0.602554] (-) TimerEvent: {}
+[0.703738] (-) TimerEvent: {}
+[0.804569] (-) TimerEvent: {}
+[0.905744] (-) TimerEvent: {}
+[1.007581] (-) TimerEvent: {}
+[1.108843] (-) TimerEvent: {}
+[1.209608] (-) TimerEvent: {}
+[1.310631] (-) TimerEvent: {}
+[1.413469] (-) TimerEvent: {}
+[1.514986] (-) TimerEvent: {}
+[1.615812] (-) TimerEvent: {}
+[1.717127] (-) TimerEvent: {}
+[1.819239] (-) TimerEvent: {}
+[1.920443] (-) TimerEvent: {}
+[2.021392] (-) TimerEvent: {}
+[2.122175] (-) TimerEvent: {}
+[2.223889] (-) TimerEvent: {}
+[2.324574] (-) TimerEvent: {}
+[2.425504] (-) TimerEvent: {}
+[2.526743] (-) TimerEvent: {}
+[2.627790] (-) TimerEvent: {}
+[2.728529] (-) TimerEvent: {}
+[2.829508] (-) TimerEvent: {}
+[2.930367] (-) TimerEvent: {}
+[3.031384] (-) TimerEvent: {}
+[3.131972] (-) TimerEvent: {}
+[3.232455] (-) TimerEvent: {}
+[3.333291] (-) TimerEvent: {}
+[3.433816] (-) TimerEvent: {}
+[3.534829] (-) TimerEvent: {}
+[3.636167] (-) TimerEvent: {}
+[3.736821] (-) TimerEvent: {}
+[3.837944] (-) TimerEvent: {}
+[3.939176] (-) TimerEvent: {}
+[4.040151] (-) TimerEvent: {}
+[4.140916] (-) TimerEvent: {}
+[4.241705] (-) TimerEvent: {}
+[4.342133] (-) TimerEvent: {}
+[4.443112] (-) TimerEvent: {}
+[4.544367] (-) TimerEvent: {}
+[4.645491] (-) TimerEvent: {}
+[4.746452] (-) TimerEvent: {}
+[4.847256] (-) TimerEvent: {}
+[4.947997] (-) TimerEvent: {}
+[5.050366] (-) TimerEvent: {}
+[5.154266] (-) TimerEvent: {}
+[5.255401] (-) TimerEvent: {}
+[5.356529] (-) TimerEvent: {}
+[5.457269] (-) TimerEvent: {}
+[5.508841] (the_revenant) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/the_revenant', 'build', '--build-base', '/home/student48/assessments/week10/build/the_revenant/build', 'install', '--record', '/home/student48/assessments/week10/build/the_revenant/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/student48/assessments/week10/src/the_revenant', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/4069-8-e-24ul523g78z_TIME8464310', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'student48', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/student48/ros2_tutorial_workspace/install/package_with_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/student48', 'OLDPWD': '/home/student48', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3536', 'SYSTEMD_EXEC_PID': '4069', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '153985', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/student48/ros2_tutorial_workspace/install:/home/student48/assessments/week4/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'student48', 'JOURNAL_STREAM': '9:28955', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'student48', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/student48/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/e-24ul523g78z:@/tmp/.ICE-unix/4020,unix/e-24ul523g78z:/tmp/.ICE-unix/4020', 'INVOCATION_ID': 'cfe83700b9474ddbb7229b43a557dcb5', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/student48/ros2_tutorial_workspace/install/the_simplest_python_packagee:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_package:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_node:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_library:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_actions:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_tf2:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_nav2:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_geometry_msgs:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_gazebo:/home/student48/ros2_tutorial_workspace/install/package_with_interfaces:/home/student48/ros2_tutorial_workspace/install/my_package:/home/student48/ros2_tutorial_workspace/install/custom_tf_package:/home/student48/ros2_tutorial_workspace/install/custom_tf_broadcaster_package:/home/student48/ros2_tutorial_workspace/install/custom_subscriber_package:/home/student48/ros2_tutorial_workspace/install/custom_server_package:/home/student48/ros2_tutorial_workspace/install/custom_publisher_package:/home/student48/ros2_tutorial_workspace/install/custom_package_with_node:/home/student48/ros2_tutorial_workspace/install/custom_package_with_library:/home/student48/ros2_tutorial_workspace/install/custom_client_package:/home/student48/ros2_tutorial_workspace/install/custom_action_server_package:/home/student48/ros2_tutorial_workspace/install/custom_action_client_package:/home/student48/ros2_tutorial_workspace/install/another_package:/home/student48/assessments/week4/src/install/volkswagen:/home/student48/assessments/week4/src/install/building:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:780c95b5-f213-411b-a998-60e6b94ecc46', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student48/assessments/week10/build/the_revenant', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/student48/assessments/week10/build/the_revenant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_packagee/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_services/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_actions/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_tf2/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_nav2/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_geometry_msgs/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_gazebo/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/package_with_interfaces/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/my_package/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/custom_tf_package/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/custom_tf_broadcaster_package/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/custom_subscriber_package/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/custom_server_package/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/custom_publisher_package/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/custom_package_with_node/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/custom_package_with_library/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/custom_client_package/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/custom_action_server_package/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/custom_action_client_package/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/another_package/lib/python3.12/site-packages:/home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages:/home/student48/assessments/week4/src/install/building/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/student48/ros2_tutorial_workspace/install/package_with_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.557582] (-) TimerEvent: {}
+[5.658239] (-) TimerEvent: {}
+[5.759786] (-) TimerEvent: {}
+[5.861362] (-) TimerEvent: {}
+[5.962074] (-) TimerEvent: {}
+[6.062690] (-) TimerEvent: {}
+[6.163418] (-) TimerEvent: {}
+[6.264630] (-) TimerEvent: {}
+[6.365098] (-) TimerEvent: {}
+[6.465923] (-) TimerEvent: {}
+[6.567034] (-) TimerEvent: {}
+[6.668036] (-) TimerEvent: {}
+[6.768608] (-) TimerEvent: {}
+[6.869079] (-) TimerEvent: {}
+[6.969610] (-) TimerEvent: {}
+[7.037405] (the_revenant) StdoutLine: {'line': b'running egg_info\n'}
+[7.038756] (the_revenant) StdoutLine: {'line': b'creating ../../build/the_revenant/the_revenant.egg-info\n'}
+[7.069830] (-) TimerEvent: {}
+[7.161049] (the_revenant) StdoutLine: {'line': b'writing ../../build/the_revenant/the_revenant.egg-info/PKG-INFO\n'}
+[7.163872] (the_revenant) StdoutLine: {'line': b'writing dependency_links to ../../build/the_revenant/the_revenant.egg-info/dependency_links.txt\n'}
+[7.165370] (the_revenant) StdoutLine: {'line': b'writing entry points to ../../build/the_revenant/the_revenant.egg-info/entry_points.txt\n'}
+[7.165864] (the_revenant) StdoutLine: {'line': b'writing requirements to ../../build/the_revenant/the_revenant.egg-info/requires.txt\n'}
+[7.166143] (the_revenant) StdoutLine: {'line': b'writing top-level names to ../../build/the_revenant/the_revenant.egg-info/top_level.txt\n'}
+[7.166457] (the_revenant) StdoutLine: {'line': b"writing manifest file '../../build/the_revenant/the_revenant.egg-info/SOURCES.txt'\n"}
+[7.169960] (-) TimerEvent: {}
+[7.270545] (-) TimerEvent: {}
+[7.371249] (-) TimerEvent: {}
+[7.384584] (the_revenant) StdoutLine: {'line': b"reading manifest file '../../build/the_revenant/the_revenant.egg-info/SOURCES.txt'\n"}
+[7.388333] (the_revenant) StdoutLine: {'line': b"writing manifest file '../../build/the_revenant/the_revenant.egg-info/SOURCES.txt'\n"}
+[7.389638] (the_revenant) StdoutLine: {'line': b'running build\n'}
+[7.390124] (the_revenant) StdoutLine: {'line': b'running build_py\n'}
+[7.390775] (the_revenant) StdoutLine: {'line': b'creating /home/student48/assessments/week10/build/the_revenant/build\n'}
+[7.392525] (the_revenant) StdoutLine: {'line': b'creating /home/student48/assessments/week10/build/the_revenant/build/lib\n'}
+[7.392828] (the_revenant) StdoutLine: {'line': b'creating /home/student48/assessments/week10/build/the_revenant/build/lib/the_revenant\n'}
+[7.393193] (the_revenant) StdoutLine: {'line': b'copying the_revenant/acknowledge.py -> /home/student48/assessments/week10/build/the_revenant/build/lib/the_revenant\n'}
+[7.393597] (the_revenant) StdoutLine: {'line': b'copying the_revenant/__init__.py -> /home/student48/assessments/week10/build/the_revenant/build/lib/the_revenant\n'}
+[7.393950] (the_revenant) StdoutLine: {'line': b'running install\n'}
+[7.425603] (the_revenant) StdoutLine: {'line': b'running install_lib\n'}
+[7.471408] (-) TimerEvent: {}
+[7.551125] (the_revenant) StdoutLine: {'line': b'creating /home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages/the_revenant\n'}
+[7.551754] (the_revenant) StdoutLine: {'line': b'copying /home/student48/assessments/week10/build/the_revenant/build/lib/the_revenant/acknowledge.py -> /home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages/the_revenant\n'}
+[7.552252] (the_revenant) StdoutLine: {'line': b'copying /home/student48/assessments/week10/build/the_revenant/build/lib/the_revenant/__init__.py -> /home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages/the_revenant\n'}
+[7.554368] (the_revenant) StdoutLine: {'line': b'byte-compiling /home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages/the_revenant/acknowledge.py to acknowledge.cpython-312.pyc\n'}
+[7.561686] (the_revenant) StdoutLine: {'line': b'byte-compiling /home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages/the_revenant/__init__.py to __init__.cpython-312.pyc\n'}
+[7.563843] (the_revenant) StdoutLine: {'line': b'running install_data\n'}
+[7.564709] (the_revenant) StdoutLine: {'line': b'creating /home/student48/assessments/week10/install/the_revenant/share/ament_index\n'}
+[7.565407] (the_revenant) StdoutLine: {'line': b'creating /home/student48/assessments/week10/install/the_revenant/share/ament_index/resource_index\n'}
+[7.565709] (the_revenant) StdoutLine: {'line': b'creating /home/student48/assessments/week10/install/the_revenant/share/ament_index/resource_index/packages\n'}
+[7.566001] (the_revenant) StdoutLine: {'line': b'copying resource/the_revenant -> /home/student48/assessments/week10/install/the_revenant/share/ament_index/resource_index/packages\n'}
+[7.566389] (the_revenant) StdoutLine: {'line': b'copying package.xml -> /home/student48/assessments/week10/install/the_revenant/share/the_revenant\n'}
+[7.566966] (the_revenant) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.572477] (-) TimerEvent: {}
+[7.673264] (-) TimerEvent: {}
+[7.696825] (the_revenant) StdoutLine: {'line': b'Copying ../../build/the_revenant/the_revenant.egg-info to /home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages/the_revenant-0.0.0-py3.12.egg-info\n'}
+[7.700912] (the_revenant) StdoutLine: {'line': b'running install_scripts\n'}
+[7.774093] (-) TimerEvent: {}
+[7.875191] (-) TimerEvent: {}
+[7.976336] (-) TimerEvent: {}
+[8.077143] (-) TimerEvent: {}
+[8.178827] (-) TimerEvent: {}
+[8.279766] (-) TimerEvent: {}
+[8.380841] (-) TimerEvent: {}
+[8.481074] (the_revenant) StdoutLine: {'line': b'Installing acknowledge script to /home/student48/assessments/week10/install/the_revenant/lib/the_revenant\n'}
+[8.482069] (-) TimerEvent: {}
+[8.483481] (the_revenant) StdoutLine: {'line': b"writing list of installed files to '/home/student48/assessments/week10/build/the_revenant/install.log'\n"}
+[8.582361] (-) TimerEvent: {}
+[8.668695] (the_revenant) CommandEnded: {'returncode': 0}
+[8.682603] (-) TimerEvent: {}
+[8.786970] (-) TimerEvent: {}
+[8.803038] (the_revenant) JobEnded: {'identifier': 'the_revenant', 'rc': 0}
+[8.808970] (-) EventReactorShutdown: {}

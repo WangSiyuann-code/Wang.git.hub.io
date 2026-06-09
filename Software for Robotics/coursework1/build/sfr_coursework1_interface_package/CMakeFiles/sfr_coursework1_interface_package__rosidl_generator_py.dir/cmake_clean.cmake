@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/sfr_coursework1_interface_package__rosidl_generator_py.dir/rosidl_generator_py/sfr_coursework1_interface_package/msg/_task_space_pose_s.c.o"
+  "CMakeFiles/sfr_coursework1_interface_package__rosidl_generator_py.dir/rosidl_generator_py/sfr_coursework1_interface_package/msg/_task_space_pose_s.c.o.d"
+  "CMakeFiles/sfr_coursework1_interface_package__rosidl_generator_py.dir/rosidl_generator_py/sfr_coursework1_interface_package/msg/_wheel_angular_velocities_s.c.o"
+  "CMakeFiles/sfr_coursework1_interface_package__rosidl_generator_py.dir/rosidl_generator_py/sfr_coursework1_interface_package/msg/_wheel_angular_velocities_s.c.o.d"
+  "CMakeFiles/sfr_coursework1_interface_package__rosidl_generator_py.dir/rosidl_generator_py/sfr_coursework1_interface_package/srv/_turn_robot_off_s.c.o"
+  "CMakeFiles/sfr_coursework1_interface_package__rosidl_generator_py.dir/rosidl_generator_py/sfr_coursework1_interface_package/srv/_turn_robot_off_s.c.o.d"
+  "CMakeFiles/sfr_coursework1_interface_package__rosidl_generator_py.dir/rosidl_generator_py/sfr_coursework1_interface_package/srv/_turn_robot_on_s.c.o"
+  "CMakeFiles/sfr_coursework1_interface_package__rosidl_generator_py.dir/rosidl_generator_py/sfr_coursework1_interface_package/srv/_turn_robot_on_s.c.o.d"
+  "libsfr_coursework1_interface_package__rosidl_generator_py.pdb"
+  "libsfr_coursework1_interface_package__rosidl_generator_py.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/sfr_coursework1_interface_package__rosidl_generator_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

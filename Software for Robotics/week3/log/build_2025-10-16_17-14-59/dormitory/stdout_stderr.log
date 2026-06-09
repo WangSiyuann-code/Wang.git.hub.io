@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/dormitory/dormitory.egg-info
+writing ../../build/dormitory/dormitory.egg-info/PKG-INFO
+writing dependency_links to ../../build/dormitory/dormitory.egg-info/dependency_links.txt
+writing entry points to ../../build/dormitory/dormitory.egg-info/entry_points.txt
+writing requirements to ../../build/dormitory/dormitory.egg-info/requires.txt
+writing top-level names to ../../build/dormitory/dormitory.egg-info/top_level.txt
+writing manifest file '../../build/dormitory/dormitory.egg-info/SOURCES.txt'
+reading manifest file '../../build/dormitory/dormitory.egg-info/SOURCES.txt'
+writing manifest file '../../build/dormitory/dormitory.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student48/assessments/week3/build/dormitory/build
+creating /home/student48/assessments/week3/build/dormitory/build/lib
+creating /home/student48/assessments/week3/build/dormitory/build/lib/dormitory
+copying dormitory/__init__.py -> /home/student48/assessments/week3/build/dormitory/build/lib/dormitory
+copying dormitory/team_locker.py -> /home/student48/assessments/week3/build/dormitory/build/lib/dormitory
+running install
+running install_lib
+creating /home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages/dormitory
+copying /home/student48/assessments/week3/build/dormitory/build/lib/dormitory/__init__.py -> /home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages/dormitory
+copying /home/student48/assessments/week3/build/dormitory/build/lib/dormitory/team_locker.py -> /home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages/dormitory
+byte-compiling /home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages/dormitory/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages/dormitory/team_locker.py to team_locker.cpython-312.pyc
+running install_data
+creating /home/student48/assessments/week3/install/dormitory/share/ament_index
+creating /home/student48/assessments/week3/install/dormitory/share/ament_index/resource_index
+creating /home/student48/assessments/week3/install/dormitory/share/ament_index/resource_index/packages
+copying resource/dormitory -> /home/student48/assessments/week3/install/dormitory/share/ament_index/resource_index/packages
+copying package.xml -> /home/student48/assessments/week3/install/dormitory/share/dormitory
+running install_egg_info
+Copying ../../build/dormitory/dormitory.egg-info to /home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages/dormitory-0.0.0-py3.12.egg-info
+running install_scripts
+Installing team_locker script to /home/student48/assessments/week3/install/dormitory/lib/dormitory
+writing list of installed files to '/home/student48/assessments/week3/build/dormitory/install.log'

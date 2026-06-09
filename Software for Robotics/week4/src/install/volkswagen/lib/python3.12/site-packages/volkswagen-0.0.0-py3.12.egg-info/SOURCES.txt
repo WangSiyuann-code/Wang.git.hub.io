@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/volkswagen/volkswagen.egg-info/PKG-INFO
+../build/volkswagen/volkswagen.egg-info/SOURCES.txt
+../build/volkswagen/volkswagen.egg-info/dependency_links.txt
+../build/volkswagen/volkswagen.egg-info/entry_points.txt
+../build/volkswagen/volkswagen.egg-info/requires.txt
+../build/volkswagen/volkswagen.egg-info/top_level.txt
+../build/volkswagen/volkswagen.egg-info/zip-safe
+resource/volkswagen
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+volkswagen/__init__.py
+volkswagen/battery.py

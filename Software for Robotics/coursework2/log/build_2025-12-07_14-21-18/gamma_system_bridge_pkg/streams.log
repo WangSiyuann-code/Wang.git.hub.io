@@ -1,0 +1,19 @@
+[5.276s] Invoking command in '/home/student48/assessments/coursework2/src/gamma_system_bridge_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamma_system_bridge_pkg build --build-base /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/build install --record /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/install.log --single-version-externally-managed install_data
+[6.676s] running egg_info
+[6.786s] writing ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/PKG-INFO
+[6.788s] writing dependency_links to ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/dependency_links.txt
+[6.790s] writing requirements to ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/requires.txt
+[6.791s] writing top-level names to ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/top_level.txt
+[7.025s] reading manifest file '../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/SOURCES.txt'
+[7.027s] writing manifest file '../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/SOURCES.txt'
+[7.028s] running build
+[7.028s] running build_py
+[7.028s] running install
+[7.044s] running install_lib
+[7.148s] running install_data
+[7.149s] running install_egg_info
+[7.238s] removing '/home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/lib/python3.12/site-packages/gamma_system_bridge_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[7.239s] Copying ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info to /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/lib/python3.12/site-packages/gamma_system_bridge_pkg-0.0.0-py3.12.egg-info
+[7.240s] running install_scripts
+[7.805s] writing list of installed files to '/home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/install.log'
+[7.904s] Invoked command in '/home/student48/assessments/coursework2/src/gamma_system_bridge_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamma_system_bridge_pkg build --build-base /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/build install --record /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/install.log --single-version-externally-managed install_data

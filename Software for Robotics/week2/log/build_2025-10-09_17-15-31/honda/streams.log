@@ -1,0 +1,32 @@
+[1.399s] Invoking command in '/home/student48/assessments/week2/src/honda': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week2/build/honda/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week2/install/honda/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/honda build --build-base /home/student48/assessments/week2/build/honda/build install --record /home/student48/assessments/week2/build/honda/install.log --single-version-externally-managed install_data
+[1.904s] running egg_info
+[1.905s] creating ../../build/honda/honda.egg-info
+[1.951s] writing ../../build/honda/honda.egg-info/PKG-INFO
+[1.951s] writing dependency_links to ../../build/honda/honda.egg-info/dependency_links.txt
+[1.951s] writing requirements to ../../build/honda/honda.egg-info/requires.txt
+[1.951s] writing top-level names to ../../build/honda/honda.egg-info/top_level.txt
+[1.952s] writing manifest file '../../build/honda/honda.egg-info/SOURCES.txt'
+[2.104s] reading manifest file '../../build/honda/honda.egg-info/SOURCES.txt'
+[2.106s] writing manifest file '../../build/honda/honda.egg-info/SOURCES.txt'
+[2.106s] running build
+[2.107s] running build_py
+[2.107s] creating /home/student48/assessments/week2/build/honda/build
+[2.108s] creating /home/student48/assessments/week2/build/honda/build/lib
+[2.109s] creating /home/student48/assessments/week2/build/honda/build/lib/honda
+[2.109s] copying honda/__init__.py -> /home/student48/assessments/week2/build/honda/build/lib/honda
+[2.110s] running install
+[2.131s] running install_lib
+[2.203s] creating /home/student48/assessments/week2/install/honda/lib/python3.12/site-packages/honda
+[2.203s] copying /home/student48/assessments/week2/build/honda/build/lib/honda/__init__.py -> /home/student48/assessments/week2/install/honda/lib/python3.12/site-packages/honda
+[2.206s] byte-compiling /home/student48/assessments/week2/install/honda/lib/python3.12/site-packages/honda/__init__.py to __init__.cpython-312.pyc
+[2.208s] running install_data
+[2.209s] creating /home/student48/assessments/week2/install/honda/share/ament_index
+[2.209s] creating /home/student48/assessments/week2/install/honda/share/ament_index/resource_index
+[2.209s] creating /home/student48/assessments/week2/install/honda/share/ament_index/resource_index/packages
+[2.210s] copying resource/honda -> /home/student48/assessments/week2/install/honda/share/ament_index/resource_index/packages
+[2.211s] copying package.xml -> /home/student48/assessments/week2/install/honda/share/honda
+[2.211s] running install_egg_info
+[2.301s] Copying ../../build/honda/honda.egg-info to /home/student48/assessments/week2/install/honda/lib/python3.12/site-packages/honda-0.0.0-py3.12.egg-info
+[2.304s] running install_scripts
+[2.547s] writing list of installed files to '/home/student48/assessments/week2/build/honda/install.log'
+[2.627s] Invoked command in '/home/student48/assessments/week2/src/honda' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week2/build/honda/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week2/install/honda/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/honda build --build-base /home/student48/assessments/week2/build/honda/build install --record /home/student48/assessments/week2/build/honda/install.log --single-version-externally-managed install_data

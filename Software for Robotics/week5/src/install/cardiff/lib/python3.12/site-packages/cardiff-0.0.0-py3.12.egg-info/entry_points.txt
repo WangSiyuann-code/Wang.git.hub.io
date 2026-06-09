@@ -1,0 +1,2 @@
+[console_scripts]
+grape = cardiff.grape:main

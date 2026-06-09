@@ -1,0 +1,37 @@
+[1.493s] Invoking command in '/home/student48/assessments/week4/src/volkswagen': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week4/src/build/volkswagen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/volkswagen build --build-base /home/student48/assessments/week4/src/build/volkswagen/build install --record /home/student48/assessments/week4/src/build/volkswagen/install.log --single-version-externally-managed install_data
+[1.873s] running egg_info
+[1.873s] creating ../build/volkswagen/volkswagen.egg-info
+[1.897s] writing ../build/volkswagen/volkswagen.egg-info/PKG-INFO
+[1.897s] writing dependency_links to ../build/volkswagen/volkswagen.egg-info/dependency_links.txt
+[1.898s] writing entry points to ../build/volkswagen/volkswagen.egg-info/entry_points.txt
+[1.898s] writing requirements to ../build/volkswagen/volkswagen.egg-info/requires.txt
+[1.899s] writing top-level names to ../build/volkswagen/volkswagen.egg-info/top_level.txt
+[1.899s] writing manifest file '../build/volkswagen/volkswagen.egg-info/SOURCES.txt'
+[1.962s] reading manifest file '../build/volkswagen/volkswagen.egg-info/SOURCES.txt'
+[1.963s] writing manifest file '../build/volkswagen/volkswagen.egg-info/SOURCES.txt'
+[1.964s] running build
+[1.964s] running build_py
+[1.964s] creating /home/student48/assessments/week4/src/build/volkswagen/build
+[1.964s] creating /home/student48/assessments/week4/src/build/volkswagen/build/lib
+[1.965s] creating /home/student48/assessments/week4/src/build/volkswagen/build/lib/volkswagen
+[1.965s] copying volkswagen/battery.py -> /home/student48/assessments/week4/src/build/volkswagen/build/lib/volkswagen
+[1.966s] copying volkswagen/__init__.py -> /home/student48/assessments/week4/src/build/volkswagen/build/lib/volkswagen
+[1.966s] running install
+[1.978s] running install_lib
+[2.022s] creating /home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages/volkswagen
+[2.022s] copying /home/student48/assessments/week4/src/build/volkswagen/build/lib/volkswagen/battery.py -> /home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages/volkswagen
+[2.022s] copying /home/student48/assessments/week4/src/build/volkswagen/build/lib/volkswagen/__init__.py -> /home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages/volkswagen
+[2.023s] byte-compiling /home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages/volkswagen/battery.py to battery.cpython-312.pyc
+[2.024s] byte-compiling /home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages/volkswagen/__init__.py to __init__.cpython-312.pyc
+[2.025s] running install_data
+[2.025s] creating /home/student48/assessments/week4/src/install/volkswagen/share/ament_index
+[2.026s] creating /home/student48/assessments/week4/src/install/volkswagen/share/ament_index/resource_index
+[2.026s] creating /home/student48/assessments/week4/src/install/volkswagen/share/ament_index/resource_index/packages
+[2.026s] copying resource/volkswagen -> /home/student48/assessments/week4/src/install/volkswagen/share/ament_index/resource_index/packages
+[2.026s] copying package.xml -> /home/student48/assessments/week4/src/install/volkswagen/share/volkswagen
+[2.026s] running install_egg_info
+[2.086s] Copying ../build/volkswagen/volkswagen.egg-info to /home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages/volkswagen-0.0.0-py3.12.egg-info
+[2.088s] running install_scripts
+[2.278s] Installing battery script to /home/student48/assessments/week4/src/install/volkswagen/lib/volkswagen
+[2.279s] writing list of installed files to '/home/student48/assessments/week4/src/build/volkswagen/install.log'
+[2.324s] Invoked command in '/home/student48/assessments/week4/src/volkswagen' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week4/src/build/volkswagen/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/volkswagen build --build-base /home/student48/assessments/week4/src/build/volkswagen/build install --record /home/student48/assessments/week4/src/build/volkswagen/install.log --single-version-externally-managed install_data

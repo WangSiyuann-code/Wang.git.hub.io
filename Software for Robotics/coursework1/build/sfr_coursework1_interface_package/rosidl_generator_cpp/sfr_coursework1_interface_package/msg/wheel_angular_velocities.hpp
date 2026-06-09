@@ -1,0 +1,12 @@
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef SFR_COURSEWORK1_INTERFACE_PACKAGE__MSG__WHEEL_ANGULAR_VELOCITIES_HPP_
+#define SFR_COURSEWORK1_INTERFACE_PACKAGE__MSG__WHEEL_ANGULAR_VELOCITIES_HPP_
+
+#include "sfr_coursework1_interface_package/msg/detail/wheel_angular_velocities__struct.hpp"
+#include "sfr_coursework1_interface_package/msg/detail/wheel_angular_velocities__builder.hpp"
+#include "sfr_coursework1_interface_package/msg/detail/wheel_angular_velocities__traits.hpp"
+#include "sfr_coursework1_interface_package/msg/detail/wheel_angular_velocities__type_support.hpp"
+
+#endif  // SFR_COURSEWORK1_INTERFACE_PACKAGE__MSG__WHEEL_ANGULAR_VELOCITIES_HPP_

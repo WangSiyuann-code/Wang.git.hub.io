@@ -1,0 +1,6 @@
+source;share/dormitory/hook/pythonpath.ps1
+source;share/dormitory/hook/pythonpath.dsv
+source;share/dormitory/hook/pythonpath.sh
+source;share/dormitory/hook/ament_prefix_path.ps1
+source;share/dormitory/hook/ament_prefix_path.dsv
+source;share/dormitory/hook/ament_prefix_path.sh

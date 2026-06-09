@@ -1,0 +1,2 @@
+[console_scripts]
+radiator = audi.radiator:main

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/kia/kia.egg-info
+writing ../../build/kia/kia.egg-info/PKG-INFO
+writing dependency_links to ../../build/kia/kia.egg-info/dependency_links.txt
+writing entry points to ../../build/kia/kia.egg-info/entry_points.txt
+writing requirements to ../../build/kia/kia.egg-info/requires.txt
+writing top-level names to ../../build/kia/kia.egg-info/top_level.txt
+writing manifest file '../../build/kia/kia.egg-info/SOURCES.txt'
+reading manifest file '../../build/kia/kia.egg-info/SOURCES.txt'
+writing manifest file '../../build/kia/kia.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student48/assessments/week2/build/kia/build
+creating /home/student48/assessments/week2/build/kia/build/lib
+creating /home/student48/assessments/week2/build/kia/build/lib/kia
+copying kia/exhaust_system.py -> /home/student48/assessments/week2/build/kia/build/lib/kia
+copying kia/__init__.py -> /home/student48/assessments/week2/build/kia/build/lib/kia
+running install
+running install_lib
+creating /home/student48/assessments/week2/install/kia/lib/python3.12/site-packages/kia
+copying /home/student48/assessments/week2/build/kia/build/lib/kia/exhaust_system.py -> /home/student48/assessments/week2/install/kia/lib/python3.12/site-packages/kia
+copying /home/student48/assessments/week2/build/kia/build/lib/kia/__init__.py -> /home/student48/assessments/week2/install/kia/lib/python3.12/site-packages/kia
+byte-compiling /home/student48/assessments/week2/install/kia/lib/python3.12/site-packages/kia/exhaust_system.py to exhaust_system.cpython-312.pyc
+byte-compiling /home/student48/assessments/week2/install/kia/lib/python3.12/site-packages/kia/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/student48/assessments/week2/install/kia/share/ament_index
+creating /home/student48/assessments/week2/install/kia/share/ament_index/resource_index
+creating /home/student48/assessments/week2/install/kia/share/ament_index/resource_index/packages
+copying resource/kia -> /home/student48/assessments/week2/install/kia/share/ament_index/resource_index/packages
+copying package.xml -> /home/student48/assessments/week2/install/kia/share/kia
+running install_egg_info
+Copying ../../build/kia/kia.egg-info to /home/student48/assessments/week2/install/kia/lib/python3.12/site-packages/kia-0.0.0-py3.12.egg-info
+running install_scripts
+Installing exhaust_system script to /home/student48/assessments/week2/install/kia/lib/kia
+writing list of installed files to '/home/student48/assessments/week2/build/kia/install.log'

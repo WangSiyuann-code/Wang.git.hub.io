@@ -1,0 +1,5 @@
+float32 goal_value
+---
+float32 end_value
+---
+float32 current_value

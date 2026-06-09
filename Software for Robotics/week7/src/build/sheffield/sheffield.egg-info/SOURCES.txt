@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/sheffield/sheffield.egg-info/PKG-INFO
+../build/sheffield/sheffield.egg-info/SOURCES.txt
+../build/sheffield/sheffield.egg-info/dependency_links.txt
+../build/sheffield/sheffield.egg-info/entry_points.txt
+../build/sheffield/sheffield.egg-info/requires.txt
+../build/sheffield/sheffield.egg-info/top_level.txt
+../build/sheffield/sheffield.egg-info/zip-safe
+resource/sheffield
+sheffield/__init__.py
+sheffield/nectarine.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

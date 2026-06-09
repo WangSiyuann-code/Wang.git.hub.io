@@ -1,0 +1,9 @@
+{
+  "package_name": "sfr_coursework1_interface_package",
+  "non_idl_tuples": [
+    "/home/student48/assessments/coursework1/src/sfr_coursework1_interface_package:msg/TaskSpacePose.msg",
+    "/home/student48/assessments/coursework1/src/sfr_coursework1_interface_package:msg/WheelAngularVelocities.msg",
+    "/home/student48/assessments/coursework1/src/sfr_coursework1_interface_package:srv/TurnRobotOff.srv",
+    "/home/student48/assessments/coursework1/src/sfr_coursework1_interface_package:srv/TurnRobotOn.srv"
+  ]
+}

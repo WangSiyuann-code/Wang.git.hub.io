@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sfr_coursework1_interface_package/msg/WheelAngularVelocities.msg
+// generated code does not contain a copyright notice
+
+
+module sfr_coursework1_interface_package {
+  module msg {
+    struct WheelAngularVelocities {
+      double right_wheel_angular_velocity;
+
+      double left_wheel_angular_velocity;
+    };
+  };
+};

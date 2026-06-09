@@ -1,0 +1,19 @@
+running egg_info
+writing ../build/audi/audi.egg-info/PKG-INFO
+writing dependency_links to ../build/audi/audi.egg-info/dependency_links.txt
+writing entry points to ../build/audi/audi.egg-info/entry_points.txt
+writing requirements to ../build/audi/audi.egg-info/requires.txt
+writing top-level names to ../build/audi/audi.egg-info/top_level.txt
+reading manifest file '../build/audi/audi.egg-info/SOURCES.txt'
+writing manifest file '../build/audi/audi.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/student48/assessments/week5/src/install/audi/lib/python3.12/site-packages/audi-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/audi/audi.egg-info to /home/student48/assessments/week5/src/install/audi/lib/python3.12/site-packages/audi-0.0.0-py3.12.egg-info
+running install_scripts
+Installing radiator script to /home/student48/assessments/week5/src/install/audi/lib/audi
+writing list of installed files to '/home/student48/assessments/week5/src/build/audi/install.log'

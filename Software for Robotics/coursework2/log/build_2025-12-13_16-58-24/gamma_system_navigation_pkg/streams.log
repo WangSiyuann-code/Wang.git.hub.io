@@ -1,0 +1,24 @@
+[1.666s] Invoking command in '/home/student48/assessments/coursework2/src/gamma_system_navigation_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamma_system_navigation_pkg build --build-base /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build install --record /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/install.log --single-version-externally-managed install_data
+[1.973s] running egg_info
+[1.989s] writing ../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/PKG-INFO
+[1.989s] writing dependency_links to ../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/dependency_links.txt
+[1.990s] writing entry points to ../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/entry_points.txt
+[1.990s] writing requirements to ../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/requires.txt
+[1.990s] writing top-level names to ../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/top_level.txt
+[2.025s] reading manifest file '../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/SOURCES.txt'
+[2.026s] writing manifest file '../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/SOURCES.txt'
+[2.026s] running build
+[2.026s] running build_py
+[2.026s] copying gamma_system_navigation_pkg/gamma_system_navigation_node.py -> /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build/lib/gamma_system_navigation_pkg
+[2.026s] running install
+[2.031s] running install_lib
+[2.048s] copying /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build/lib/gamma_system_navigation_pkg/gamma_system_navigation_node.py -> /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages/gamma_system_navigation_pkg
+[2.049s] byte-compiling /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages/gamma_system_navigation_pkg/gamma_system_navigation_node.py to gamma_system_navigation_node.cpython-312.pyc
+[2.050s] running install_data
+[2.050s] running install_egg_info
+[2.069s] removing '/home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages/gamma_system_navigation_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[2.069s] Copying ../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info to /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages/gamma_system_navigation_pkg-0.0.0-py3.12.egg-info
+[2.069s] running install_scripts
+[2.175s] Installing gamma_system_navigation_node script to /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/gamma_system_navigation_pkg
+[2.175s] writing list of installed files to '/home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/install.log'
+[2.201s] Invoked command in '/home/student48/assessments/coursework2/src/gamma_system_navigation_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamma_system_navigation_pkg build --build-base /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build install --record /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/install.log --single-version-externally-managed install_data

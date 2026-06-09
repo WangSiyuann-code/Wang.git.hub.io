@@ -1,0 +1,24 @@
+[1.614s] Invoking command in '/home/student48/assessments/week5/src/cardiff': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week5/src/build/cardiff/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week5/src/install/cardiff/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/cardiff build --build-base /home/student48/assessments/week5/src/build/cardiff/build install --record /home/student48/assessments/week5/src/build/cardiff/install.log --single-version-externally-managed install_data
+[2.012s] running egg_info
+[2.056s] writing ../build/cardiff/cardiff.egg-info/PKG-INFO
+[2.059s] writing dependency_links to ../build/cardiff/cardiff.egg-info/dependency_links.txt
+[2.059s] writing entry points to ../build/cardiff/cardiff.egg-info/entry_points.txt
+[2.060s] writing requirements to ../build/cardiff/cardiff.egg-info/requires.txt
+[2.060s] writing top-level names to ../build/cardiff/cardiff.egg-info/top_level.txt
+[2.160s] reading manifest file '../build/cardiff/cardiff.egg-info/SOURCES.txt'
+[2.161s] writing manifest file '../build/cardiff/cardiff.egg-info/SOURCES.txt'
+[2.161s] running build
+[2.162s] running build_py
+[2.162s] copying cardiff/grape.py -> /home/student48/assessments/week5/src/build/cardiff/build/lib/cardiff
+[2.162s] running install
+[2.173s] running install_lib
+[2.204s] copying /home/student48/assessments/week5/src/build/cardiff/build/lib/cardiff/grape.py -> /home/student48/assessments/week5/src/install/cardiff/lib/python3.12/site-packages/cardiff
+[2.205s] byte-compiling /home/student48/assessments/week5/src/install/cardiff/lib/python3.12/site-packages/cardiff/grape.py to grape.cpython-312.pyc
+[2.208s] running install_data
+[2.208s] running install_egg_info
+[2.262s] removing '/home/student48/assessments/week5/src/install/cardiff/lib/python3.12/site-packages/cardiff-0.0.0-py3.12.egg-info' (and everything under it)
+[2.262s] Copying ../build/cardiff/cardiff.egg-info to /home/student48/assessments/week5/src/install/cardiff/lib/python3.12/site-packages/cardiff-0.0.0-py3.12.egg-info
+[2.265s] running install_scripts
+[2.478s] Installing grape script to /home/student48/assessments/week5/src/install/cardiff/lib/cardiff
+[2.479s] writing list of installed files to '/home/student48/assessments/week5/src/build/cardiff/install.log'
+[2.530s] Invoked command in '/home/student48/assessments/week5/src/cardiff' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week5/src/build/cardiff/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week5/src/install/cardiff/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/cardiff build --build-base /home/student48/assessments/week5/src/build/cardiff/build install --record /home/student48/assessments/week5/src/build/cardiff/install.log --single-version-externally-managed install_data

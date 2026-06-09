@@ -1,0 +1,21 @@
+[1.696s] Invoking command in '/home/student48/assessments/week5/src/audi': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week5/src/build/audi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week5/src/install/audi/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/audi build --build-base /home/student48/assessments/week5/src/build/audi/build install --record /home/student48/assessments/week5/src/build/audi/install.log --single-version-externally-managed install_data
+[2.091s] running egg_info
+[2.119s] writing ../build/audi/audi.egg-info/PKG-INFO
+[2.119s] writing dependency_links to ../build/audi/audi.egg-info/dependency_links.txt
+[2.120s] writing entry points to ../build/audi/audi.egg-info/entry_points.txt
+[2.120s] writing requirements to ../build/audi/audi.egg-info/requires.txt
+[2.120s] writing top-level names to ../build/audi/audi.egg-info/top_level.txt
+[2.214s] reading manifest file '../build/audi/audi.egg-info/SOURCES.txt'
+[2.216s] writing manifest file '../build/audi/audi.egg-info/SOURCES.txt'
+[2.216s] running build
+[2.216s] running build_py
+[2.217s] running install
+[2.232s] running install_lib
+[2.276s] running install_data
+[2.276s] running install_egg_info
+[2.309s] removing '/home/student48/assessments/week5/src/install/audi/lib/python3.12/site-packages/audi-0.0.0-py3.12.egg-info' (and everything under it)
+[2.309s] Copying ../build/audi/audi.egg-info to /home/student48/assessments/week5/src/install/audi/lib/python3.12/site-packages/audi-0.0.0-py3.12.egg-info
+[2.312s] running install_scripts
+[2.563s] Installing radiator script to /home/student48/assessments/week5/src/install/audi/lib/audi
+[2.564s] writing list of installed files to '/home/student48/assessments/week5/src/build/audi/install.log'
+[2.649s] Invoked command in '/home/student48/assessments/week5/src/audi' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week5/src/build/audi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week5/src/install/audi/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/audi build --build-base /home/student48/assessments/week5/src/build/audi/build install --record /home/student48/assessments/week5/src/build/audi/install.log --single-version-externally-managed install_data

@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/tesla/tesla.egg-info
+writing ../build/tesla/tesla.egg-info/PKG-INFO
+writing dependency_links to ../build/tesla/tesla.egg-info/dependency_links.txt
+writing entry points to ../build/tesla/tesla.egg-info/entry_points.txt
+writing requirements to ../build/tesla/tesla.egg-info/requires.txt
+writing top-level names to ../build/tesla/tesla.egg-info/top_level.txt
+writing manifest file '../build/tesla/tesla.egg-info/SOURCES.txt'
+reading manifest file '../build/tesla/tesla.egg-info/SOURCES.txt'
+writing manifest file '../build/tesla/tesla.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student48/assessments/week7/src/build/tesla/build
+creating /home/student48/assessments/week7/src/build/tesla/build/lib
+creating /home/student48/assessments/week7/src/build/tesla/build/lib/tesla
+copying tesla/computer.py -> /home/student48/assessments/week7/src/build/tesla/build/lib/tesla
+copying tesla/__init__.py -> /home/student48/assessments/week7/src/build/tesla/build/lib/tesla
+running install
+running install_lib
+creating /home/student48/assessments/week7/src/install/tesla/lib/python3.12/site-packages/tesla
+copying /home/student48/assessments/week7/src/build/tesla/build/lib/tesla/computer.py -> /home/student48/assessments/week7/src/install/tesla/lib/python3.12/site-packages/tesla
+copying /home/student48/assessments/week7/src/build/tesla/build/lib/tesla/__init__.py -> /home/student48/assessments/week7/src/install/tesla/lib/python3.12/site-packages/tesla
+byte-compiling /home/student48/assessments/week7/src/install/tesla/lib/python3.12/site-packages/tesla/computer.py to computer.cpython-312.pyc
+byte-compiling /home/student48/assessments/week7/src/install/tesla/lib/python3.12/site-packages/tesla/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/student48/assessments/week7/src/install/tesla/share/ament_index
+creating /home/student48/assessments/week7/src/install/tesla/share/ament_index/resource_index
+creating /home/student48/assessments/week7/src/install/tesla/share/ament_index/resource_index/packages
+copying resource/tesla -> /home/student48/assessments/week7/src/install/tesla/share/ament_index/resource_index/packages
+copying package.xml -> /home/student48/assessments/week7/src/install/tesla/share/tesla
+running install_egg_info
+Copying ../build/tesla/tesla.egg-info to /home/student48/assessments/week7/src/install/tesla/lib/python3.12/site-packages/tesla-0.0.0-py3.12.egg-info
+running install_scripts
+Installing computer script to /home/student48/assessments/week7/src/install/tesla/lib/tesla
+writing list of installed files to '/home/student48/assessments/week7/src/build/tesla/install.log'

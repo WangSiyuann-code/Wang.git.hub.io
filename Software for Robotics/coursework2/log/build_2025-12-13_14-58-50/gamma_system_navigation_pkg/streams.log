@@ -1,0 +1,43 @@
+[6.684s] Invoking command in '/home/student48/assessments/coursework2/src/gamma_system_navigation_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamma_system_navigation_pkg build --build-base /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build install --record /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/install.log --single-version-externally-managed install_data
+[7.980s] running egg_info
+[7.980s] creating ../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info
+[8.077s] writing ../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/PKG-INFO
+[8.078s] writing dependency_links to ../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/dependency_links.txt
+[8.078s] writing entry points to ../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/entry_points.txt
+[8.079s] writing requirements to ../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/requires.txt
+[8.079s] writing top-level names to ../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/top_level.txt
+[8.079s] writing manifest file '../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/SOURCES.txt'
+[8.314s] reading manifest file '../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/SOURCES.txt'
+[8.316s] writing manifest file '../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info/SOURCES.txt'
+[8.316s] running build
+[8.316s] running build_py
+[8.317s] creating /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build
+[8.317s] creating /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build/lib
+[8.317s] creating /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build/lib/gamma_system_navigation_pkg
+[8.318s] copying gamma_system_navigation_pkg/nav2_initial_pose_publisher_node.py -> /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build/lib/gamma_system_navigation_pkg
+[8.318s] copying gamma_system_navigation_pkg/gamma_system_navigation_node.py -> /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build/lib/gamma_system_navigation_pkg
+[8.318s] copying gamma_system_navigation_pkg/__init__.py -> /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build/lib/gamma_system_navigation_pkg
+[8.319s] copying gamma_system_navigation_pkg/nav2_navigate_to_pose_action_client_node.py -> /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build/lib/gamma_system_navigation_pkg
+[8.319s] running install
+[8.341s] running install_lib
+[8.417s] creating /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages/gamma_system_navigation_pkg
+[8.418s] copying /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build/lib/gamma_system_navigation_pkg/nav2_initial_pose_publisher_node.py -> /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages/gamma_system_navigation_pkg
+[8.418s] copying /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build/lib/gamma_system_navigation_pkg/gamma_system_navigation_node.py -> /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages/gamma_system_navigation_pkg
+[8.419s] copying /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build/lib/gamma_system_navigation_pkg/__init__.py -> /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages/gamma_system_navigation_pkg
+[8.419s] copying /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build/lib/gamma_system_navigation_pkg/nav2_navigate_to_pose_action_client_node.py -> /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages/gamma_system_navigation_pkg
+[8.419s] byte-compiling /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages/gamma_system_navigation_pkg/nav2_initial_pose_publisher_node.py to nav2_initial_pose_publisher_node.cpython-312.pyc
+[8.421s] byte-compiling /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages/gamma_system_navigation_pkg/gamma_system_navigation_node.py to gamma_system_navigation_node.cpython-312.pyc
+[8.423s] byte-compiling /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages/gamma_system_navigation_pkg/__init__.py to __init__.cpython-312.pyc
+[8.424s] byte-compiling /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages/gamma_system_navigation_pkg/nav2_navigate_to_pose_action_client_node.py to nav2_navigate_to_pose_action_client_node.cpython-312.pyc
+[8.426s] running install_data
+[8.426s] creating /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/share/ament_index
+[8.427s] creating /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/share/ament_index/resource_index
+[8.428s] creating /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/share/ament_index/resource_index/packages
+[8.428s] copying resource/gamma_system_navigation_pkg -> /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/share/ament_index/resource_index/packages
+[8.428s] copying package.xml -> /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/share/gamma_system_navigation_pkg
+[8.429s] running install_egg_info
+[8.539s] Copying ../../build/gamma_system_navigation_pkg/gamma_system_navigation_pkg.egg-info to /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages/gamma_system_navigation_pkg-0.0.0-py3.12.egg-info
+[8.541s] running install_scripts
+[9.171s] Installing gamma_system_navigation_node script to /home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/gamma_system_navigation_pkg
+[9.171s] writing list of installed files to '/home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/install.log'
+[9.278s] Invoked command in '/home/student48/assessments/coursework2/src/gamma_system_navigation_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/coursework2/install/gamma_system_navigation_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamma_system_navigation_pkg build --build-base /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/build install --record /home/student48/assessments/coursework2/build/gamma_system_navigation_pkg/install.log --single-version-externally-managed install_data

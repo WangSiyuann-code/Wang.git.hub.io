@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/honda/honda.egg-info/PKG-INFO
+../../build/honda/honda.egg-info/SOURCES.txt
+../../build/honda/honda.egg-info/dependency_links.txt
+../../build/honda/honda.egg-info/requires.txt
+../../build/honda/honda.egg-info/top_level.txt
+../../build/honda/honda.egg-info/zip-safe
+honda/__init__.py
+resource/honda
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

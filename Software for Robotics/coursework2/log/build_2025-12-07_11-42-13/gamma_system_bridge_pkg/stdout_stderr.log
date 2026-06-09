@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info
+writing ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/dependency_links.txt
+writing requirements to ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/requires.txt
+writing top-level names to ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/top_level.txt
+writing manifest file '../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/build
+creating /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/build/lib
+creating /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/build/lib/gamma_system_bridge_pkg
+copying gamma_system_bridge_pkg/__init__.py -> /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/build/lib/gamma_system_bridge_pkg
+running install
+running install_lib
+creating /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/lib/python3.12/site-packages/gamma_system_bridge_pkg
+copying /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/build/lib/gamma_system_bridge_pkg/__init__.py -> /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/lib/python3.12/site-packages/gamma_system_bridge_pkg
+byte-compiling /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/lib/python3.12/site-packages/gamma_system_bridge_pkg/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/ament_index
+creating /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/ament_index/resource_index
+creating /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/ament_index/resource_index/packages
+copying resource/gamma_system_bridge_pkg -> /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/gamma_system_bridge_pkg
+creating /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/gamma_system_bridge_pkg/launch
+copying launch/gamma_system_bridge_launch.py -> /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/gamma_system_bridge_pkg/launch
+creating /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/gamma_system_bridge_pkg/config_bridge
+copying config_bridge/control_shape_thrust.yaml -> /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/gamma_system_bridge_pkg/config_bridge
+copying config_bridge/bridge_config.yaml -> /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/gamma_system_bridge_pkg/config_bridge
+running install_egg_info
+Copying ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info to /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/lib/python3.12/site-packages/gamma_system_bridge_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/install.log'

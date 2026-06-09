@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from sfr_ca7_interface_package/action/MoveIn1D.action
+// generated code does not contain a copyright notice
+
+
+module sfr_ca7_interface_package {
+  module action {
+    struct MoveIn1D_Goal {
+      float goal_value;
+    };
+    struct MoveIn1D_Result {
+      float end_value;
+    };
+    struct MoveIn1D_Feedback {
+      float current_value;
+    };
+  };
+};

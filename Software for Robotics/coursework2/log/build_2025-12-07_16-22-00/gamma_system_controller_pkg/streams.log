@@ -1,0 +1,24 @@
+[2.968s] Invoking command in '/home/student48/assessments/coursework2/src/gamma_system_controller_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/coursework2/build/gamma_system_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/coursework2/install/gamma_system_controller_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamma_system_controller_pkg build --build-base /home/student48/assessments/coursework2/build/gamma_system_controller_pkg/build install --record /home/student48/assessments/coursework2/build/gamma_system_controller_pkg/install.log --single-version-externally-managed install_data
+[3.574s] running egg_info
+[3.616s] writing ../../build/gamma_system_controller_pkg/gamma_system_controller_pkg.egg-info/PKG-INFO
+[3.616s] writing dependency_links to ../../build/gamma_system_controller_pkg/gamma_system_controller_pkg.egg-info/dependency_links.txt
+[3.617s] writing entry points to ../../build/gamma_system_controller_pkg/gamma_system_controller_pkg.egg-info/entry_points.txt
+[3.618s] writing requirements to ../../build/gamma_system_controller_pkg/gamma_system_controller_pkg.egg-info/requires.txt
+[3.618s] writing top-level names to ../../build/gamma_system_controller_pkg/gamma_system_controller_pkg.egg-info/top_level.txt
+[3.746s] reading manifest file '../../build/gamma_system_controller_pkg/gamma_system_controller_pkg.egg-info/SOURCES.txt'
+[3.747s] writing manifest file '../../build/gamma_system_controller_pkg/gamma_system_controller_pkg.egg-info/SOURCES.txt'
+[3.748s] running build
+[3.748s] running build_py
+[3.749s] copying gamma_system_controller_pkg/gamma_system_controller_node.py -> /home/student48/assessments/coursework2/build/gamma_system_controller_pkg/build/lib/gamma_system_controller_pkg
+[3.749s] running install
+[3.760s] running install_lib
+[3.822s] copying /home/student48/assessments/coursework2/build/gamma_system_controller_pkg/build/lib/gamma_system_controller_pkg/gamma_system_controller_node.py -> /home/student48/assessments/coursework2/install/gamma_system_controller_pkg/lib/python3.12/site-packages/gamma_system_controller_pkg
+[3.823s] byte-compiling /home/student48/assessments/coursework2/install/gamma_system_controller_pkg/lib/python3.12/site-packages/gamma_system_controller_pkg/gamma_system_controller_node.py to gamma_system_controller_node.cpython-312.pyc
+[3.825s] running install_data
+[3.826s] running install_egg_info
+[3.860s] removing '/home/student48/assessments/coursework2/install/gamma_system_controller_pkg/lib/python3.12/site-packages/gamma_system_controller_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[3.860s] Copying ../../build/gamma_system_controller_pkg/gamma_system_controller_pkg.egg-info to /home/student48/assessments/coursework2/install/gamma_system_controller_pkg/lib/python3.12/site-packages/gamma_system_controller_pkg-0.0.0-py3.12.egg-info
+[3.861s] running install_scripts
+[4.133s] Installing gamma_system_controller_node script to /home/student48/assessments/coursework2/install/gamma_system_controller_pkg/lib/gamma_system_controller_pkg
+[4.133s] writing list of installed files to '/home/student48/assessments/coursework2/build/gamma_system_controller_pkg/install.log'
+[4.178s] Invoked command in '/home/student48/assessments/coursework2/src/gamma_system_controller_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/coursework2/build/gamma_system_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/coursework2/install/gamma_system_controller_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamma_system_controller_pkg build --build-base /home/student48/assessments/coursework2/build/gamma_system_controller_pkg/build install --record /home/student48/assessments/coursework2/build/gamma_system_controller_pkg/install.log --single-version-externally-managed install_data

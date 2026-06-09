@@ -1,0 +1,2 @@
+[console_scripts]
+gamma_system_controller_node = gamma_system_controller_pkg.gamma_system_controller_node:main

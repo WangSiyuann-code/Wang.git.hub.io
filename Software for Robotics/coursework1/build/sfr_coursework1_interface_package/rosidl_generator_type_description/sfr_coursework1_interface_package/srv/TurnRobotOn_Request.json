@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "sfr_coursework1_interface_package/srv/TurnRobotOn_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "sfr_coursework1_interface_package/srv/TurnRobotOn_Request",
+      "hash_string": "RIHS01_a8730240f1b74970dcdc0b21c3ca4ebe2378df2e9099810c098fe85d1b6d6876"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[1.836s] Invoking command in '/home/student48/assessments/coursework1/src/alpha_warrior_controller_pkg': AMENT_PREFIX_PATH=/home/student48/assessments/coursework1/install/sfr_coursework1_interface_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student48/assessments/coursework1/install/sfr_coursework1_interface_package:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/student48/assessments/coursework1/install/sfr_coursework1_interface_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student48/assessments/coursework1/build/alpha_warrior_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/lib/python3.12/site-packages:/home/student48/assessments/coursework1/install/sfr_coursework1_interface_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/alpha_warrior_controller_pkg build --build-base /home/student48/assessments/coursework1/build/alpha_warrior_controller_pkg/build install --record /home/student48/assessments/coursework1/build/alpha_warrior_controller_pkg/install.log --single-version-externally-managed install_data
+[2.252s] running egg_info
+[2.253s] creating ../../build/alpha_warrior_controller_pkg/alpha_warrior_controller_pkg.egg-info
+[2.295s] writing ../../build/alpha_warrior_controller_pkg/alpha_warrior_controller_pkg.egg-info/PKG-INFO
+[2.297s] writing dependency_links to ../../build/alpha_warrior_controller_pkg/alpha_warrior_controller_pkg.egg-info/dependency_links.txt
+[2.298s] writing entry points to ../../build/alpha_warrior_controller_pkg/alpha_warrior_controller_pkg.egg-info/entry_points.txt
+[2.298s] writing requirements to ../../build/alpha_warrior_controller_pkg/alpha_warrior_controller_pkg.egg-info/requires.txt
+[2.299s] writing top-level names to ../../build/alpha_warrior_controller_pkg/alpha_warrior_controller_pkg.egg-info/top_level.txt
+[2.299s] writing manifest file '../../build/alpha_warrior_controller_pkg/alpha_warrior_controller_pkg.egg-info/SOURCES.txt'
+[2.431s] reading manifest file '../../build/alpha_warrior_controller_pkg/alpha_warrior_controller_pkg.egg-info/SOURCES.txt'
+[2.431s] writing manifest file '../../build/alpha_warrior_controller_pkg/alpha_warrior_controller_pkg.egg-info/SOURCES.txt'
+[2.432s] running build
+[2.432s] running build_py
+[2.433s] creating /home/student48/assessments/coursework1/build/alpha_warrior_controller_pkg/build
+[2.433s] creating /home/student48/assessments/coursework1/build/alpha_warrior_controller_pkg/build/lib
+[2.433s] creating /home/student48/assessments/coursework1/build/alpha_warrior_controller_pkg/build/lib/alpha_warrior_controller_pkg
+[2.433s] copying alpha_warrior_controller_pkg/alpha_warrior_controller_node.py -> /home/student48/assessments/coursework1/build/alpha_warrior_controller_pkg/build/lib/alpha_warrior_controller_pkg
+[2.434s] copying alpha_warrior_controller_pkg/__init__.py -> /home/student48/assessments/coursework1/build/alpha_warrior_controller_pkg/build/lib/alpha_warrior_controller_pkg
+[2.434s] running install
+[2.450s] running install_lib
+[2.486s] creating /home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/lib/python3.12/site-packages/alpha_warrior_controller_pkg
+[2.486s] copying /home/student48/assessments/coursework1/build/alpha_warrior_controller_pkg/build/lib/alpha_warrior_controller_pkg/alpha_warrior_controller_node.py -> /home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/lib/python3.12/site-packages/alpha_warrior_controller_pkg
+[2.487s] copying /home/student48/assessments/coursework1/build/alpha_warrior_controller_pkg/build/lib/alpha_warrior_controller_pkg/__init__.py -> /home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/lib/python3.12/site-packages/alpha_warrior_controller_pkg
+[2.487s] byte-compiling /home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/lib/python3.12/site-packages/alpha_warrior_controller_pkg/alpha_warrior_controller_node.py to alpha_warrior_controller_node.cpython-312.pyc
+[2.488s]   File "/home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/lib/python3.12/site-packages/alpha_warrior_controller_pkg/alpha_warrior_controller_node.py", line 8
+[2.488s]     --------------------------------------------------------
+[2.489s]                                                             ^
+[2.489s] SyntaxError: invalid syntax
+[2.489s] 
+[2.489s] byte-compiling /home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/lib/python3.12/site-packages/alpha_warrior_controller_pkg/__init__.py to __init__.cpython-312.pyc
+[2.490s] running install_data
+[2.490s] creating /home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/share/ament_index
+[2.490s] creating /home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/share/ament_index/resource_index
+[2.491s] creating /home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/share/ament_index/resource_index/packages
+[2.491s] copying resource/alpha_warrior_controller_pkg -> /home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/share/ament_index/resource_index/packages
+[2.491s] copying package.xml -> /home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/share/alpha_warrior_controller_pkg
+[2.491s] running install_egg_info
+[2.541s] Copying ../../build/alpha_warrior_controller_pkg/alpha_warrior_controller_pkg.egg-info to /home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/lib/python3.12/site-packages/alpha_warrior_controller_pkg-0.0.0-py3.12.egg-info
+[2.543s] running install_scripts
+[2.733s] Installing alpha_warrior_controller_node script to /home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/lib/alpha_warrior_controller_pkg
+[2.734s] writing list of installed files to '/home/student48/assessments/coursework1/build/alpha_warrior_controller_pkg/install.log'
+[2.788s] Invoked command in '/home/student48/assessments/coursework1/src/alpha_warrior_controller_pkg' returned '0': AMENT_PREFIX_PATH=/home/student48/assessments/coursework1/install/sfr_coursework1_interface_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student48/assessments/coursework1/install/sfr_coursework1_interface_package:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/student48/assessments/coursework1/install/sfr_coursework1_interface_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student48/assessments/coursework1/build/alpha_warrior_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/lib/python3.12/site-packages:/home/student48/assessments/coursework1/install/sfr_coursework1_interface_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/alpha_warrior_controller_pkg build --build-base /home/student48/assessments/coursework1/build/alpha_warrior_controller_pkg/build install --record /home/student48/assessments/coursework1/build/alpha_warrior_controller_pkg/install.log --single-version-externally-managed install_data

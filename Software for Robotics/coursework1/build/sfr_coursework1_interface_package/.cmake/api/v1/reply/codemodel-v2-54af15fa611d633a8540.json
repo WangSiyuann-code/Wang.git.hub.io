@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-03d94a010720cf0decbb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "sfr_coursework1_interface_package__py",
+					"jsonFile" : "directory-sfr_coursework1_interface_package__py-e1a27ef960fc82356641.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/student48/assessments/coursework1/build/sfr_coursework1_interface_package/sfr_coursework1_interface_package__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "sfr_coursework1_interface_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_sfr_coursework1_interface_package_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_sfr_coursework1_interface_package_egg-bdd74fce923f93b1b91d.json",
+					"name" : "ament_cmake_python_build_sfr_coursework1_interface_package_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_sfr_coursework1_interface_package::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_sfr_coursework1_interface_package-0b210a240a171c23f69a.json",
+					"name" : "ament_cmake_python_copy_sfr_coursework1_interface_package",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package-5b20673b9aef0d1c7178.json",
+					"name" : "sfr_coursework1_interface_package",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package__cpp-02a8a3bbd20b1c608dab.json",
+					"name" : "sfr_coursework1_interface_package__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sfr_coursework1_interface_package__py::@1d76058e1b6aae753c3e",
+					"jsonFile" : "target-sfr_coursework1_interface_package__py-a4a1da219cb75dc8a84d.json",
+					"name" : "sfr_coursework1_interface_package__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package__rosidl_generator_c-8526f356ddae498fd678.json",
+					"name" : "sfr_coursework1_interface_package__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package__rosidl_generator_py-32cbd47aa68ef258ba2c.json",
+					"name" : "sfr_coursework1_interface_package__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package__rosidl_generator_type_description-b00c83384e94ed055e6b.json",
+					"name" : "sfr_coursework1_interface_package__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package__rosidl_typesupport_c-fed243a2966e210c59c0.json",
+					"name" : "sfr_coursework1_interface_package__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package__rosidl_typesupport_cpp-965d566c271b9dbe2386.json",
+					"name" : "sfr_coursework1_interface_package__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package__rosidl_typesupport_fastrtps_c-39d96440f368196126d1.json",
+					"name" : "sfr_coursework1_interface_package__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package__rosidl_typesupport_fastrtps_cpp-0a10939bc826b871f0b3.json",
+					"name" : "sfr_coursework1_interface_package__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package__rosidl_typesupport_introspection_c-f08c2714d1f10e9b2518.json",
+					"name" : "sfr_coursework1_interface_package__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package__rosidl_typesupport_introspection_cpp-0eab816d054765d488a1.json",
+					"name" : "sfr_coursework1_interface_package__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package_s__rosidl_typesupport_c-d5791b6c647c71ec91cd.json",
+					"name" : "sfr_coursework1_interface_package_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package_s__rosidl_typesupport_fastrtps_c-de00193efb7ce125e9e0.json",
+					"name" : "sfr_coursework1_interface_package_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package_s__rosidl_typesupport_introspection_c-1192abf71739ae5c0772.json",
+					"name" : "sfr_coursework1_interface_package_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_coursework1_interface_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_coursework1_interface_package_uninstall-639723b0e8a6874a12e0.json",
+					"name" : "sfr_coursework1_interface_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6ca20f301f526f16e559.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student48/assessments/coursework1/build/sfr_coursework1_interface_package",
+		"source" : "/home/student48/assessments/coursework1/src/sfr_coursework1_interface_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

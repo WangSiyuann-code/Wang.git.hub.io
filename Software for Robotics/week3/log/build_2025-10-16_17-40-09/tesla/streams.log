@@ -1,0 +1,22 @@
+[1.748s] Invoking command in '/home/student48/assessments/week3/src/tesla': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week3/build/tesla/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tesla build --build-base /home/student48/assessments/week3/build/tesla/build install --record /home/student48/assessments/week3/build/tesla/install.log --single-version-externally-managed install_data
+[2.163s] running egg_info
+[2.217s] writing ../../build/tesla/tesla.egg-info/PKG-INFO
+[2.217s] writing dependency_links to ../../build/tesla/tesla.egg-info/dependency_links.txt
+[2.218s] writing requirements to ../../build/tesla/tesla.egg-info/requires.txt
+[2.218s] writing top-level names to ../../build/tesla/tesla.egg-info/top_level.txt
+[2.275s] reading manifest file '../../build/tesla/tesla.egg-info/SOURCES.txt'
+[2.276s] writing manifest file '../../build/tesla/tesla.egg-info/SOURCES.txt'
+[2.276s] running build
+[2.276s] running build_py
+[2.276s] copying tesla/__init__.py -> /home/student48/assessments/week3/build/tesla/build/lib/tesla
+[2.277s] running install
+[2.286s] running install_lib
+[2.330s] copying /home/student48/assessments/week3/build/tesla/build/lib/tesla/__init__.py -> /home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages/tesla
+[2.331s] byte-compiling /home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages/tesla/__init__.py to __init__.cpython-312.pyc
+[2.332s] running install_data
+[2.332s] running install_egg_info
+[2.363s] removing '/home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages/tesla-0.0.0-py3.12.egg-info' (and everything under it)
+[2.364s] Copying ../../build/tesla/tesla.egg-info to /home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages/tesla-0.0.0-py3.12.egg-info
+[2.367s] running install_scripts
+[2.580s] writing list of installed files to '/home/student48/assessments/week3/build/tesla/install.log'
+[2.659s] Invoked command in '/home/student48/assessments/week3/src/tesla' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week3/build/tesla/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tesla build --build-base /home/student48/assessments/week3/build/tesla/build install --record /home/student48/assessments/week3/build/tesla/install.log --single-version-externally-managed install_data

@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-841fcd7d183bc236f8ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "sfr_ca7_interface_package__py",
+					"jsonFile" : "directory-sfr_ca7_interface_package__py-ae9d8953de44e37613f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/student48/assessments/week7/src/build/sfr_ca7_interface_package/sfr_ca7_interface_package__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "sfr_ca7_interface_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_sfr_ca7_interface_package_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_sfr_ca7_interface_package_egg-2aa1913760621d92e2ab.json",
+					"name" : "ament_cmake_python_build_sfr_ca7_interface_package_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_sfr_ca7_interface_package::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_sfr_ca7_interface_package-77137e2c54f9c66bd5ee.json",
+					"name" : "ament_cmake_python_copy_sfr_ca7_interface_package",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package-65917e764070b5bfd987.json",
+					"name" : "sfr_ca7_interface_package",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package__cpp-38971a63cb1b2f9d7f7a.json",
+					"name" : "sfr_ca7_interface_package__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sfr_ca7_interface_package__py::@75638bf81fff80aede8a",
+					"jsonFile" : "target-sfr_ca7_interface_package__py-f600f17fc99775dec59a.json",
+					"name" : "sfr_ca7_interface_package__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package__rosidl_generator_c-09096974bb3cc5535477.json",
+					"name" : "sfr_ca7_interface_package__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package__rosidl_generator_py-c482b1ffa0d855d873e5.json",
+					"name" : "sfr_ca7_interface_package__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package__rosidl_generator_type_description-68a9cb1fba956f9d07bf.json",
+					"name" : "sfr_ca7_interface_package__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package__rosidl_typesupport_c-858000956804fca7a4bc.json",
+					"name" : "sfr_ca7_interface_package__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package__rosidl_typesupport_cpp-9e8bff42d309cb593cad.json",
+					"name" : "sfr_ca7_interface_package__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package__rosidl_typesupport_fastrtps_c-80695314c30b98defddc.json",
+					"name" : "sfr_ca7_interface_package__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package__rosidl_typesupport_fastrtps_cpp-a96a4f1aac41e09c3603.json",
+					"name" : "sfr_ca7_interface_package__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package__rosidl_typesupport_introspection_c-12ef0be8573f21f73af0.json",
+					"name" : "sfr_ca7_interface_package__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package__rosidl_typesupport_introspection_cpp-63fa4389a17e3295d251.json",
+					"name" : "sfr_ca7_interface_package__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package_s__rosidl_typesupport_c-5de91cd90c5b8593e0e1.json",
+					"name" : "sfr_ca7_interface_package_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package_s__rosidl_typesupport_fastrtps_c-45bd32b09e40b1d2d63a.json",
+					"name" : "sfr_ca7_interface_package_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package_s__rosidl_typesupport_introspection_c-d977cc52e826fb35a4ae.json",
+					"name" : "sfr_ca7_interface_package_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sfr_ca7_interface_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sfr_ca7_interface_package_uninstall-ff522b5edef8e11f9e67.json",
+					"name" : "sfr_ca7_interface_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b876de368e7d36593db9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student48/assessments/week7/src/build/sfr_ca7_interface_package",
+		"source" : "/home/student48/assessments/week7/src/sfr_ca7_interface_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

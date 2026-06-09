@@ -1,0 +1,5 @@
+  File "/home/student48/assessments/coursework1/install/alpha_warrior_controller_pkg/lib/python3.12/site-packages/alpha_warrior_controller_pkg/alpha_warrior_controller_node.py", line 44
+    qos_profile=10)
+                  ^
+SyntaxError: positional argument follows keyword argument
+

@@ -1,0 +1,3 @@
+[console_scripts]
+alpha_warrior_controller_node = alpha_warrior_controller_pkg.alpha_warrior_controller_node: main
+alpha_warrior_node = alpha_warrior_pkg.alpha_warrior_node:main

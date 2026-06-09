@@ -1,0 +1,14 @@
+{
+  "package_name": "sfr_coursework1_interface_package",
+  "output_dir": "/home/student48/assessments/coursework1/build/sfr_coursework1_interface_package/rosidl_generator_type_description/sfr_coursework1_interface_package",
+  "idl_tuples": [
+    "/home/student48/assessments/coursework1/build/sfr_coursework1_interface_package/rosidl_adapter/sfr_coursework1_interface_package:msg/TaskSpacePose.idl",
+    "/home/student48/assessments/coursework1/build/sfr_coursework1_interface_package/rosidl_adapter/sfr_coursework1_interface_package:msg/WheelAngularVelocities.idl",
+    "/home/student48/assessments/coursework1/build/sfr_coursework1_interface_package/rosidl_adapter/sfr_coursework1_interface_package:srv/TurnRobotOff.idl",
+    "/home/student48/assessments/coursework1/build/sfr_coursework1_interface_package/rosidl_adapter/sfr_coursework1_interface_package:srv/TurnRobotOn.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

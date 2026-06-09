@@ -1,0 +1,2 @@
+[console_scripts]
+gamma_system_navigation_node = gamma_system_navigation_pkg.gamma_system_navigation_node:main

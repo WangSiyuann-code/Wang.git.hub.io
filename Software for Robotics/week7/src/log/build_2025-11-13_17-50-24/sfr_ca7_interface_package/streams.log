@@ -1,0 +1,234 @@
+[0.022s] Invoking command in '/home/student48/assessments/week7/src/build/sfr_ca7_interface_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student48/ros2_tutorial_workspace/install/custom_action_client_package:/home/student48/ros2_tutorial_workspace/install/custom_action_server_package:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_packagee:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_package:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_node:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_library:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_actions:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/home/student48/ros2_tutorial_workspace/install/my_package:/home/student48/ros2_tutorial_workspace/install/custom_subscriber_package:/home/student48/ros2_tutorial_workspace/install/custom_server_package:/home/student48/ros2_tutorial_workspace/install/custom_publisher_package:/home/student48/ros2_tutorial_workspace/install/custom_package_with_node:/home/student48/ros2_tutorial_workspace/install/custom_package_with_library:/home/student48/ros2_tutorial_workspace/install/custom_client_package:/home/student48/ros2_tutorial_workspace/install/another_package:/home/student48/assessments/week4/src/install/volkswagen:/home/student48/assessments/week4/src/install/building:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/student48/assessments/week7/src/sfr_ca7_interface_package -DCMAKE_INSTALL_PREFIX=/home/student48/assessments/week7/src/install/sfr_ca7_interface_package
+[0.321s] -- The C compiler identification is GNU 13.3.0
+[0.569s] -- The CXX compiler identification is GNU 13.3.0
+[0.622s] -- Detecting C compiler ABI info
+[0.834s] -- Detecting C compiler ABI info - done
+[0.849s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.852s] -- Detecting C compile features
+[0.855s] -- Detecting C compile features - done
+[0.880s] -- Detecting CXX compiler ABI info
+[1.181s] -- Detecting CXX compiler ABI info - done
+[1.207s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.208s] -- Detecting CXX compile features
+[1.209s] -- Detecting CXX compile features - done
+[1.221s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.554s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.799s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.961s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.057s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.280s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.079s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.119s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.129s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.376s] -- Found PythonExtra: /usr/bin/python3  
+[6.103s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.182s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.264s] -- Added test 'lint_cmake' to check CMake code style
+[6.269s] -- Added test 'xmllint' to check XML markup files
+[6.283s] -- Configuring done (6.2s)
+[6.345s] -- Generating done (0.0s)
+[6.359s] -- Build files have been written to: /home/student48/assessments/week7/src/build/sfr_ca7_interface_package
+[6.370s] Invoked command in '/home/student48/assessments/week7/src/build/sfr_ca7_interface_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student48/ros2_tutorial_workspace/install/custom_action_client_package:/home/student48/ros2_tutorial_workspace/install/custom_action_server_package:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_packagee:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_package:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_node:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_library:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_actions:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/home/student48/ros2_tutorial_workspace/install/my_package:/home/student48/ros2_tutorial_workspace/install/custom_subscriber_package:/home/student48/ros2_tutorial_workspace/install/custom_server_package:/home/student48/ros2_tutorial_workspace/install/custom_publisher_package:/home/student48/ros2_tutorial_workspace/install/custom_package_with_node:/home/student48/ros2_tutorial_workspace/install/custom_package_with_library:/home/student48/ros2_tutorial_workspace/install/custom_client_package:/home/student48/ros2_tutorial_workspace/install/another_package:/home/student48/assessments/week4/src/install/volkswagen:/home/student48/assessments/week4/src/install/building:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/student48/assessments/week7/src/sfr_ca7_interface_package -DCMAKE_INSTALL_PREFIX=/home/student48/assessments/week7/src/install/sfr_ca7_interface_package
+[6.372s] Invoking command in '/home/student48/assessments/week7/src/build/sfr_ca7_interface_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student48/ros2_tutorial_workspace/install/custom_action_client_package:/home/student48/ros2_tutorial_workspace/install/custom_action_server_package:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_packagee:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_package:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_node:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_library:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_actions:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/home/student48/ros2_tutorial_workspace/install/my_package:/home/student48/ros2_tutorial_workspace/install/custom_subscriber_package:/home/student48/ros2_tutorial_workspace/install/custom_server_package:/home/student48/ros2_tutorial_workspace/install/custom_publisher_package:/home/student48/ros2_tutorial_workspace/install/custom_package_with_node:/home/student48/ros2_tutorial_workspace/install/custom_package_with_library:/home/student48/ros2_tutorial_workspace/install/custom_client_package:/home/student48/ros2_tutorial_workspace/install/another_package:/home/student48/assessments/week4/src/install/volkswagen:/home/student48/assessments/week4/src/install/building:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student48/assessments/week7/src/build/sfr_ca7_interface_package -- -j12 -l12
+[6.470s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.497s] [  2%] Built target ament_cmake_python_copy_sfr_ca7_interface_package
+[6.844s] [  2%] Built target sfr_ca7_interface_package__rosidl_generator_type_description
+[6.863s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.871s] running egg_info
+[6.872s] creating sfr_ca7_interface_package.egg-info
+[6.884s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.911s] writing sfr_ca7_interface_package.egg-info/PKG-INFO
+[6.912s] writing dependency_links to sfr_ca7_interface_package.egg-info/dependency_links.txt
+[6.912s] writing top-level names to sfr_ca7_interface_package.egg-info/top_level.txt
+[6.912s] writing manifest file 'sfr_ca7_interface_package.egg-info/SOURCES.txt'
+[7.007s] reading manifest file 'sfr_ca7_interface_package.egg-info/SOURCES.txt'
+[7.007s] writing manifest file 'sfr_ca7_interface_package.egg-info/SOURCES.txt'
+[7.048s] [  8%] Built target ament_cmake_python_build_sfr_ca7_interface_package_egg
+[7.529s] [  8%] Built target sfr_ca7_interface_package__cpp
+[7.567s] [ 11%] [32mBuilding C object CMakeFiles/sfr_ca7_interface_package__rosidl_generator_c.dir/rosidl_generator_c/sfr_ca7_interface_package/action/detail/move_in1_d__description.c.o[0m
+[7.569s] [ 17%] [32mBuilding C object CMakeFiles/sfr_ca7_interface_package__rosidl_generator_c.dir/rosidl_generator_c/sfr_ca7_interface_package/action/detail/move_in1_d__type_support.c.o[0m
+[7.569s] [ 14%] [32mBuilding C object CMakeFiles/sfr_ca7_interface_package__rosidl_generator_c.dir/rosidl_generator_c/sfr_ca7_interface_package/action/detail/move_in1_d__functions.c.o[0m
+[7.903s] [ 20%] [32m[1mLinking C shared library libsfr_ca7_interface_package__rosidl_generator_c.so[0m
+[7.968s] [ 20%] Built target sfr_ca7_interface_package__rosidl_generator_c
+[8.000s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.001s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.002s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.009s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.011s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.108s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.535s] [ 41%] [32mBuilding CXX object CMakeFiles/sfr_ca7_interface_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/sfr_ca7_interface_package/action/move_in1_d__type_support.cpp.o[0m
+[8.684s] [ 44%] [32mBuilding CXX object CMakeFiles/sfr_ca7_interface_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sfr_ca7_interface_package/action/move_in1_d__type_support.cpp.o[0m
+[8.692s] [ 47%] [32m[1mLinking CXX shared library libsfr_ca7_interface_package__rosidl_typesupport_c.so[0m
+[8.777s] [ 47%] Built target sfr_ca7_interface_package__rosidl_typesupport_c
+[8.879s] [ 50%] [32mBuilding CXX object CMakeFiles/sfr_ca7_interface_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sfr_ca7_interface_package/action/detail/move_in1_d__type_support.cpp.o[0m
+[8.890s] [ 52%] [32mBuilding C object CMakeFiles/sfr_ca7_interface_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sfr_ca7_interface_package/action/detail/move_in1_d__type_support.c.o[0m
+[8.995s] [ 55%] [32m[1mLinking C shared library libsfr_ca7_interface_package__rosidl_typesupport_introspection_c.so[0m
+[9.065s] [ 55%] Built target sfr_ca7_interface_package__rosidl_typesupport_introspection_c
+[9.090s] [ 58%] [32mBuilding CXX object CMakeFiles/sfr_ca7_interface_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sfr_ca7_interface_package/action/detail/move_in1_d__type_support_c.cpp.o[0m
+[9.190s] [ 61%] [32mBuilding CXX object CMakeFiles/sfr_ca7_interface_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sfr_ca7_interface_package/action/detail/dds_fastrtps/move_in1_d__type_support.cpp.o[0m
+[9.867s] [ 64%] [32m[1mLinking CXX shared library libsfr_ca7_interface_package__rosidl_typesupport_cpp.so[0m
+[9.999s] [ 64%] Built target sfr_ca7_interface_package__rosidl_typesupport_cpp
+[10.103s] [ 67%] [32m[1mLinking CXX shared library libsfr_ca7_interface_package__rosidl_typesupport_fastrtps_c.so[0m
+[10.186s] [ 67%] Built target sfr_ca7_interface_package__rosidl_typesupport_fastrtps_c
+[10.480s] [ 70%] [32m[1mLinking CXX shared library libsfr_ca7_interface_package__rosidl_typesupport_introspection_cpp.so[0m
+[10.632s] [ 70%] Built target sfr_ca7_interface_package__rosidl_typesupport_introspection_cpp
+[11.033s] [ 73%] [32m[1mLinking CXX shared library libsfr_ca7_interface_package__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.187s] [ 73%] Built target sfr_ca7_interface_package__rosidl_typesupport_fastrtps_cpp
+[11.236s] [ 73%] Built target sfr_ca7_interface_package
+[11.272s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.043s] [ 76%] Built target sfr_ca7_interface_package__py
+[12.088s] [ 79%] [32mBuilding C object CMakeFiles/sfr_ca7_interface_package__rosidl_generator_py.dir/rosidl_generator_py/sfr_ca7_interface_package/action/_move_in1_d_s.c.o[0m
+[12.459s] [ 82%] [32m[1mLinking C shared library libsfr_ca7_interface_package__rosidl_generator_py.so[0m
+[12.539s] [ 82%] Built target sfr_ca7_interface_package__rosidl_generator_py
+[12.587s] [ 85%] [32mBuilding C object CMakeFiles/sfr_ca7_interface_package_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sfr_ca7_interface_package/_sfr_ca7_interface_package_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.591s] [ 88%] [32mBuilding C object CMakeFiles/sfr_ca7_interface_package_s__rosidl_typesupport_c.dir/rosidl_generator_py/sfr_ca7_interface_package/_sfr_ca7_interface_package_s.ep.rosidl_typesupport_c.c.o[0m
+[12.592s] [ 91%] [32mBuilding C object CMakeFiles/sfr_ca7_interface_package_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sfr_ca7_interface_package/_sfr_ca7_interface_package_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.773s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/sfr_ca7_interface_package/sfr_ca7_interface_package_s__rosidl_typesupport_fastrtps_c.so[0m
+[12.814s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/sfr_ca7_interface_package/sfr_ca7_interface_package_s__rosidl_typesupport_introspection_c.so[0m
+[12.842s] [ 97%] Built target sfr_ca7_interface_package_s__rosidl_typesupport_fastrtps_c
+[12.877s] [ 97%] Built target sfr_ca7_interface_package_s__rosidl_typesupport_introspection_c
+[12.878s] [100%] [32m[1mLinking C shared module rosidl_generator_py/sfr_ca7_interface_package/sfr_ca7_interface_package_s__rosidl_typesupport_c.so[0m
+[12.942s] [100%] Built target sfr_ca7_interface_package_s__rosidl_typesupport_c
+[12.963s] Invoked command in '/home/student48/assessments/week7/src/build/sfr_ca7_interface_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student48/ros2_tutorial_workspace/install/custom_action_client_package:/home/student48/ros2_tutorial_workspace/install/custom_action_server_package:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_packagee:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_package:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_node:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_library:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_actions:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/home/student48/ros2_tutorial_workspace/install/my_package:/home/student48/ros2_tutorial_workspace/install/custom_subscriber_package:/home/student48/ros2_tutorial_workspace/install/custom_server_package:/home/student48/ros2_tutorial_workspace/install/custom_publisher_package:/home/student48/ros2_tutorial_workspace/install/custom_package_with_node:/home/student48/ros2_tutorial_workspace/install/custom_package_with_library:/home/student48/ros2_tutorial_workspace/install/custom_client_package:/home/student48/ros2_tutorial_workspace/install/another_package:/home/student48/assessments/week4/src/install/volkswagen:/home/student48/assessments/week4/src/install/building:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/student48/assessments/week7/src/build/sfr_ca7_interface_package -- -j12 -l12
+[12.979s] Invoking command in '/home/student48/assessments/week7/src/build/sfr_ca7_interface_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student48/ros2_tutorial_workspace/install/custom_action_client_package:/home/student48/ros2_tutorial_workspace/install/custom_action_server_package:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_packagee:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_package:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_node:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_library:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_actions:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/home/student48/ros2_tutorial_workspace/install/my_package:/home/student48/ros2_tutorial_workspace/install/custom_subscriber_package:/home/student48/ros2_tutorial_workspace/install/custom_server_package:/home/student48/ros2_tutorial_workspace/install/custom_publisher_package:/home/student48/ros2_tutorial_workspace/install/custom_package_with_node:/home/student48/ros2_tutorial_workspace/install/custom_package_with_library:/home/student48/ros2_tutorial_workspace/install/custom_client_package:/home/student48/ros2_tutorial_workspace/install/another_package:/home/student48/assessments/week4/src/install/volkswagen:/home/student48/assessments/week4/src/install/building:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student48/assessments/week7/src/build/sfr_ca7_interface_package
+[13.005s] -- Install configuration: ""
+[13.005s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/ament_index/resource_index/rosidl_interfaces/sfr_ca7_interface_package
+[13.006s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/action/MoveIn1D.json
+[13.006s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package
+[13.006s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/msg
+[13.006s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/msg/rosidl_generator_c__visibility_control.h
+[13.007s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action
+[13.007s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/move_in1_d.h
+[13.007s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail
+[13.007s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__functions.c
+[13.008s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__functions.h
+[13.008s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__description.c
+[13.008s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__type_support.h
+[13.008s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__type_support.c
+[13.008s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__struct.h
+[13.009s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/environment/library_path.sh
+[13.009s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/environment/library_path.dsv
+[13.009s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_generator_c.so
+[13.009s] -- Set non-toolchain portion of runtime path of "/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_generator_c.so" to ""
+[13.010s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package
+[13.010s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/msg
+[13.010s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.010s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action
+[13.011s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail
+[13.011s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__rosidl_typesupport_fastrtps_c.h
+[13.011s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_typesupport_fastrtps_c.so
+[13.011s] -- Set non-toolchain portion of runtime path of "/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_typesupport_fastrtps_c.so" to ""
+[13.011s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package
+[13.011s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/msg
+[13.011s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.012s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action
+[13.012s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail
+[13.012s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__rosidl_typesupport_introspection_c.h
+[13.012s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__type_support.c
+[13.012s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_typesupport_introspection_c.so
+[13.012s] -- Set non-toolchain portion of runtime path of "/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_typesupport_introspection_c.so" to ""
+[13.012s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_typesupport_c.so
+[13.012s] -- Set non-toolchain portion of runtime path of "/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_typesupport_c.so" to ""
+[13.013s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package
+[13.013s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/msg
+[13.013s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.013s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action
+[13.013s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/move_in1_d.hpp
+[13.013s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail
+[13.014s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__type_support.hpp
+[13.014s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__traits.hpp
+[13.014s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__struct.hpp
+[13.014s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__builder.hpp
+[13.014s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package
+[13.014s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/msg
+[13.014s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.014s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action
+[13.014s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail
+[13.015s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__rosidl_typesupport_fastrtps_cpp.hpp
+[13.015s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/dds_fastrtps
+[13.015s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_typesupport_fastrtps_cpp.so
+[13.015s] -- Set non-toolchain portion of runtime path of "/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.015s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package
+[13.015s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action
+[13.015s] -- Up-to-date: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail
+[13.015s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__rosidl_typesupport_introspection_cpp.hpp
+[13.015s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/include/sfr_ca7_interface_package/sfr_ca7_interface_package/action/detail/move_in1_d__type_support.cpp
+[13.016s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_typesupport_introspection_cpp.so
+[13.016s] -- Set non-toolchain portion of runtime path of "/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_typesupport_introspection_cpp.so" to ""
+[13.016s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_typesupport_cpp.so
+[13.016s] -- Set non-toolchain portion of runtime path of "/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_typesupport_cpp.so" to ""
+[13.016s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/environment/pythonpath.sh
+[13.016s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/environment/pythonpath.dsv
+[13.016s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package-0.0.0-py3.12.egg-info
+[13.016s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package-0.0.0-py3.12.egg-info/top_level.txt
+[13.017s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package-0.0.0-py3.12.egg-info/SOURCES.txt
+[13.017s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package-0.0.0-py3.12.egg-info/PKG-INFO
+[13.017s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package-0.0.0-py3.12.egg-info/dependency_links.txt
+[13.017s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package
+[13.017s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/sfr_ca7_interface_package_s__rosidl_typesupport_c.so
+[13.017s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/_sfr_ca7_interface_package_s.ep.rosidl_typesupport_c.c
+[13.017s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/_sfr_ca7_interface_package_s.ep.rosidl_typesupport_introspection_c.c
+[13.017s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/sfr_ca7_interface_package_s__rosidl_typesupport_introspection_c.so
+[13.018s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/action
+[13.018s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/action/_move_in1_d_s.c
+[13.018s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/action/_move_in1_d.py
+[13.018s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/action/__init__.py
+[13.018s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/sfr_ca7_interface_package_s__rosidl_typesupport_fastrtps_c.so
+[13.018s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/_sfr_ca7_interface_package_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.018s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/__init__.py
+[13.109s] Listing '/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package'...
+[13.109s] Compiling '/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/__init__.py'...
+[13.109s] Listing '/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/action'...
+[13.109s] Compiling '/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/action/__init__.py'...
+[13.109s] Compiling '/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/action/_move_in1_d.py'...
+[13.116s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/sfr_ca7_interface_package_s__rosidl_typesupport_fastrtps_c.so
+[13.117s] -- Set non-toolchain portion of runtime path of "/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/sfr_ca7_interface_package_s__rosidl_typesupport_fastrtps_c.so" to ""
+[13.117s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/sfr_ca7_interface_package_s__rosidl_typesupport_introspection_c.so
+[13.118s] -- Set non-toolchain portion of runtime path of "/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/sfr_ca7_interface_package_s__rosidl_typesupport_introspection_c.so" to ""
+[13.118s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/sfr_ca7_interface_package_s__rosidl_typesupport_c.so
+[13.118s] -- Set non-toolchain portion of runtime path of "/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/python3.12/site-packages/sfr_ca7_interface_package/sfr_ca7_interface_package_s__rosidl_typesupport_c.so" to ""
+[13.118s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_generator_py.so
+[13.119s] -- Set non-toolchain portion of runtime path of "/home/student48/assessments/week7/src/install/sfr_ca7_interface_package/lib/libsfr_ca7_interface_package__rosidl_generator_py.so" to ""
+[13.119s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/action/MoveIn1D.idl
+[13.119s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/action/MoveIn1D.action
+[13.119s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/ament_index/resource_index/package_run_dependencies/sfr_ca7_interface_package
+[13.120s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/ament_index/resource_index/parent_prefix_path/sfr_ca7_interface_package
+[13.120s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/environment/ament_prefix_path.sh
+[13.120s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/environment/ament_prefix_path.dsv
+[13.120s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/environment/path.sh
+[13.121s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/environment/path.dsv
+[13.121s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/local_setup.bash
+[13.121s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/local_setup.sh
+[13.121s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/local_setup.zsh
+[13.121s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/local_setup.dsv
+[13.122s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/package.dsv
+[13.122s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/ament_index/resource_index/packages/sfr_ca7_interface_package
+[13.122s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/export_sfr_ca7_interface_package__rosidl_generator_cExport.cmake
+[13.122s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/export_sfr_ca7_interface_package__rosidl_generator_cExport-noconfig.cmake
+[13.122s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/export_sfr_ca7_interface_package__rosidl_typesupport_fastrtps_cExport.cmake
+[13.123s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/export_sfr_ca7_interface_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.123s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/sfr_ca7_interface_package__rosidl_typesupport_introspection_cExport.cmake
+[13.123s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/sfr_ca7_interface_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.123s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/sfr_ca7_interface_package__rosidl_typesupport_cExport.cmake
+[13.124s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/sfr_ca7_interface_package__rosidl_typesupport_cExport-noconfig.cmake
+[13.124s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/export_sfr_ca7_interface_package__rosidl_generator_cppExport.cmake
+[13.124s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/export_sfr_ca7_interface_package__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.124s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/export_sfr_ca7_interface_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.124s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/sfr_ca7_interface_package__rosidl_typesupport_introspection_cppExport.cmake
+[13.125s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/sfr_ca7_interface_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.125s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/sfr_ca7_interface_package__rosidl_typesupport_cppExport.cmake
+[13.125s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/sfr_ca7_interface_package__rosidl_typesupport_cppExport-noconfig.cmake
+[13.125s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/export_sfr_ca7_interface_package__rosidl_generator_pyExport.cmake
+[13.125s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/export_sfr_ca7_interface_package__rosidl_generator_pyExport-noconfig.cmake
+[13.126s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/rosidl_cmake-extras.cmake
+[13.126s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.126s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.126s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/ament_cmake_export_libraries-extras.cmake
+[13.126s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/ament_cmake_export_targets-extras.cmake
+[13.126s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.127s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.127s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/sfr_ca7_interface_packageConfig.cmake
+[13.127s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/cmake/sfr_ca7_interface_packageConfig-version.cmake
+[13.127s] -- Installing: /home/student48/assessments/week7/src/install/sfr_ca7_interface_package/share/sfr_ca7_interface_package/package.xml
+[13.130s] Invoked command in '/home/student48/assessments/week7/src/build/sfr_ca7_interface_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student48/ros2_tutorial_workspace/install/custom_action_client_package:/home/student48/ros2_tutorial_workspace/install/custom_action_server_package:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_packagee:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_package:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_node:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_library:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_actions:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/home/student48/ros2_tutorial_workspace/install/my_package:/home/student48/ros2_tutorial_workspace/install/custom_subscriber_package:/home/student48/ros2_tutorial_workspace/install/custom_server_package:/home/student48/ros2_tutorial_workspace/install/custom_publisher_package:/home/student48/ros2_tutorial_workspace/install/custom_package_with_node:/home/student48/ros2_tutorial_workspace/install/custom_package_with_library:/home/student48/ros2_tutorial_workspace/install/custom_client_package:/home/student48/ros2_tutorial_workspace/install/another_package:/home/student48/assessments/week4/src/install/volkswagen:/home/student48/assessments/week4/src/install/building:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/student48/assessments/week7/src/build/sfr_ca7_interface_package

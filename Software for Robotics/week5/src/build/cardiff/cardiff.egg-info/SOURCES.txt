@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/cardiff/cardiff.egg-info/PKG-INFO
+../build/cardiff/cardiff.egg-info/SOURCES.txt
+../build/cardiff/cardiff.egg-info/dependency_links.txt
+../build/cardiff/cardiff.egg-info/entry_points.txt
+../build/cardiff/cardiff.egg-info/requires.txt
+../build/cardiff/cardiff.egg-info/top_level.txt
+../build/cardiff/cardiff.egg-info/zip-safe
+cardiff/__init__.py
+cardiff/grape.py
+resource/cardiff
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,6 @@
+source;share/volkswagen/hook/pythonpath.ps1
+source;share/volkswagen/hook/pythonpath.dsv
+source;share/volkswagen/hook/pythonpath.sh
+source;share/volkswagen/hook/ament_prefix_path.ps1
+source;share/volkswagen/hook/ament_prefix_path.dsv
+source;share/volkswagen/hook/ament_prefix_path.sh

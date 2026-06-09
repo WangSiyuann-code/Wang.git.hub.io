@@ -1,0 +1,37 @@
+[5.510s] Invoking command in '/home/student48/assessments/week10/src/the_revenant': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week10/build/the_revenant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/the_revenant build --build-base /home/student48/assessments/week10/build/the_revenant/build install --record /home/student48/assessments/week10/build/the_revenant/install.log --single-version-externally-managed install_data
+[7.034s] running egg_info
+[7.035s] creating ../../build/the_revenant/the_revenant.egg-info
+[7.157s] writing ../../build/the_revenant/the_revenant.egg-info/PKG-INFO
+[7.160s] writing dependency_links to ../../build/the_revenant/the_revenant.egg-info/dependency_links.txt
+[7.162s] writing entry points to ../../build/the_revenant/the_revenant.egg-info/entry_points.txt
+[7.162s] writing requirements to ../../build/the_revenant/the_revenant.egg-info/requires.txt
+[7.162s] writing top-level names to ../../build/the_revenant/the_revenant.egg-info/top_level.txt
+[7.162s] writing manifest file '../../build/the_revenant/the_revenant.egg-info/SOURCES.txt'
+[7.381s] reading manifest file '../../build/the_revenant/the_revenant.egg-info/SOURCES.txt'
+[7.384s] writing manifest file '../../build/the_revenant/the_revenant.egg-info/SOURCES.txt'
+[7.386s] running build
+[7.386s] running build_py
+[7.388s] creating /home/student48/assessments/week10/build/the_revenant/build
+[7.389s] creating /home/student48/assessments/week10/build/the_revenant/build/lib
+[7.389s] creating /home/student48/assessments/week10/build/the_revenant/build/lib/the_revenant
+[7.389s] copying the_revenant/acknowledge.py -> /home/student48/assessments/week10/build/the_revenant/build/lib/the_revenant
+[7.390s] copying the_revenant/__init__.py -> /home/student48/assessments/week10/build/the_revenant/build/lib/the_revenant
+[7.390s] running install
+[7.422s] running install_lib
+[7.547s] creating /home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages/the_revenant
+[7.548s] copying /home/student48/assessments/week10/build/the_revenant/build/lib/the_revenant/acknowledge.py -> /home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages/the_revenant
+[7.548s] copying /home/student48/assessments/week10/build/the_revenant/build/lib/the_revenant/__init__.py -> /home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages/the_revenant
+[7.551s] byte-compiling /home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages/the_revenant/acknowledge.py to acknowledge.cpython-312.pyc
+[7.559s] byte-compiling /home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages/the_revenant/__init__.py to __init__.cpython-312.pyc
+[7.560s] running install_data
+[7.561s] creating /home/student48/assessments/week10/install/the_revenant/share/ament_index
+[7.561s] creating /home/student48/assessments/week10/install/the_revenant/share/ament_index/resource_index
+[7.562s] creating /home/student48/assessments/week10/install/the_revenant/share/ament_index/resource_index/packages
+[7.562s] copying resource/the_revenant -> /home/student48/assessments/week10/install/the_revenant/share/ament_index/resource_index/packages
+[7.563s] copying package.xml -> /home/student48/assessments/week10/install/the_revenant/share/the_revenant
+[7.563s] running install_egg_info
+[7.693s] Copying ../../build/the_revenant/the_revenant.egg-info to /home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages/the_revenant-0.0.0-py3.12.egg-info
+[7.697s] running install_scripts
+[8.478s] Installing acknowledge script to /home/student48/assessments/week10/install/the_revenant/lib/the_revenant
+[8.480s] writing list of installed files to '/home/student48/assessments/week10/build/the_revenant/install.log'
+[8.665s] Invoked command in '/home/student48/assessments/week10/src/the_revenant' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week10/build/the_revenant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week10/install/the_revenant/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/the_revenant build --build-base /home/student48/assessments/week10/build/the_revenant/build install --record /home/student48/assessments/week10/build/the_revenant/install.log --single-version-externally-managed install_data

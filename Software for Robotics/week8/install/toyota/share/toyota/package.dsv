@@ -1,0 +1,6 @@
+source;share/toyota/hook/pythonpath.ps1
+source;share/toyota/hook/pythonpath.dsv
+source;share/toyota/hook/pythonpath.sh
+source;share/toyota/hook/ament_prefix_path.ps1
+source;share/toyota/hook/ament_prefix_path.dsv
+source;share/toyota/hook/ament_prefix_path.sh

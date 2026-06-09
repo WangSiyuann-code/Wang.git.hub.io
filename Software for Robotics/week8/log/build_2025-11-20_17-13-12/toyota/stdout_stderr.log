@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/toyota/toyota.egg-info
+writing ../../build/toyota/toyota.egg-info/PKG-INFO
+writing dependency_links to ../../build/toyota/toyota.egg-info/dependency_links.txt
+writing entry points to ../../build/toyota/toyota.egg-info/entry_points.txt
+writing requirements to ../../build/toyota/toyota.egg-info/requires.txt
+writing top-level names to ../../build/toyota/toyota.egg-info/top_level.txt
+writing manifest file '../../build/toyota/toyota.egg-info/SOURCES.txt'
+reading manifest file '../../build/toyota/toyota.egg-info/SOURCES.txt'
+writing manifest file '../../build/toyota/toyota.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student48/assessments/week8/build/toyota/build
+creating /home/student48/assessments/week8/build/toyota/build/lib
+creating /home/student48/assessments/week8/build/toyota/build/lib/toyota
+copying toyota/__init__.py -> /home/student48/assessments/week8/build/toyota/build/lib/toyota
+copying toyota/chair.py -> /home/student48/assessments/week8/build/toyota/build/lib/toyota
+running install
+running install_lib
+creating /home/student48/assessments/week8/install/toyota/lib/python3.12/site-packages/toyota
+copying /home/student48/assessments/week8/build/toyota/build/lib/toyota/__init__.py -> /home/student48/assessments/week8/install/toyota/lib/python3.12/site-packages/toyota
+copying /home/student48/assessments/week8/build/toyota/build/lib/toyota/chair.py -> /home/student48/assessments/week8/install/toyota/lib/python3.12/site-packages/toyota
+byte-compiling /home/student48/assessments/week8/install/toyota/lib/python3.12/site-packages/toyota/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/student48/assessments/week8/install/toyota/lib/python3.12/site-packages/toyota/chair.py to chair.cpython-312.pyc
+running install_data
+creating /home/student48/assessments/week8/install/toyota/share/ament_index
+creating /home/student48/assessments/week8/install/toyota/share/ament_index/resource_index
+creating /home/student48/assessments/week8/install/toyota/share/ament_index/resource_index/packages
+copying resource/toyota -> /home/student48/assessments/week8/install/toyota/share/ament_index/resource_index/packages
+copying package.xml -> /home/student48/assessments/week8/install/toyota/share/toyota
+running install_egg_info
+Copying ../../build/toyota/toyota.egg-info to /home/student48/assessments/week8/install/toyota/lib/python3.12/site-packages/toyota-0.0.0-py3.12.egg-info
+running install_scripts
+Installing chair script to /home/student48/assessments/week8/install/toyota/lib/toyota
+writing list of installed files to '/home/student48/assessments/week8/build/toyota/install.log'

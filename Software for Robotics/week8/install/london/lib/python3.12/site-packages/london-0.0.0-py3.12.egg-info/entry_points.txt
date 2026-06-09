@@ -1,0 +1,2 @@
+[console_scripts]
+strawberry = london.strawberry:main

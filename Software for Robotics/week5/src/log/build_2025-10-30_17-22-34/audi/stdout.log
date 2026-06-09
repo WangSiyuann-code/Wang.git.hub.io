@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/audi/audi.egg-info
+writing ../build/audi/audi.egg-info/PKG-INFO
+writing dependency_links to ../build/audi/audi.egg-info/dependency_links.txt
+writing entry points to ../build/audi/audi.egg-info/entry_points.txt
+writing requirements to ../build/audi/audi.egg-info/requires.txt
+writing top-level names to ../build/audi/audi.egg-info/top_level.txt
+writing manifest file '../build/audi/audi.egg-info/SOURCES.txt'
+reading manifest file '../build/audi/audi.egg-info/SOURCES.txt'
+writing manifest file '../build/audi/audi.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student48/assessments/week5/src/build/audi/build
+creating /home/student48/assessments/week5/src/build/audi/build/lib
+creating /home/student48/assessments/week5/src/build/audi/build/lib/audi
+copying audi/radiator.py -> /home/student48/assessments/week5/src/build/audi/build/lib/audi
+copying audi/__init__.py -> /home/student48/assessments/week5/src/build/audi/build/lib/audi
+running install
+running install_lib
+creating /home/student48/assessments/week5/src/install/audi/lib/python3.12/site-packages/audi
+copying /home/student48/assessments/week5/src/build/audi/build/lib/audi/radiator.py -> /home/student48/assessments/week5/src/install/audi/lib/python3.12/site-packages/audi
+copying /home/student48/assessments/week5/src/build/audi/build/lib/audi/__init__.py -> /home/student48/assessments/week5/src/install/audi/lib/python3.12/site-packages/audi
+byte-compiling /home/student48/assessments/week5/src/install/audi/lib/python3.12/site-packages/audi/radiator.py to radiator.cpython-312.pyc
+byte-compiling /home/student48/assessments/week5/src/install/audi/lib/python3.12/site-packages/audi/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/student48/assessments/week5/src/install/audi/share/ament_index
+creating /home/student48/assessments/week5/src/install/audi/share/ament_index/resource_index
+creating /home/student48/assessments/week5/src/install/audi/share/ament_index/resource_index/packages
+copying resource/audi -> /home/student48/assessments/week5/src/install/audi/share/ament_index/resource_index/packages
+copying package.xml -> /home/student48/assessments/week5/src/install/audi/share/audi
+running install_egg_info
+Copying ../build/audi/audi.egg-info to /home/student48/assessments/week5/src/install/audi/lib/python3.12/site-packages/audi-0.0.0-py3.12.egg-info
+running install_scripts
+Installing radiator script to /home/student48/assessments/week5/src/install/audi/lib/audi
+writing list of installed files to '/home/student48/assessments/week5/src/build/audi/install.log'

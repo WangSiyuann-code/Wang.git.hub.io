@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/sfr_ca7_interface_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sfr_ca7_interface_package/action/detail/dds_fastrtps/move_in1_d__type_support.cpp.o"
+  "CMakeFiles/sfr_ca7_interface_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sfr_ca7_interface_package/action/detail/dds_fastrtps/move_in1_d__type_support.cpp.o.d"
+  "libsfr_ca7_interface_package__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libsfr_ca7_interface_package__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/sfr_ca7_interface_package/action/detail/dds_fastrtps/move_in1_d__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/sfr_ca7_interface_package/action/detail/move_in1_d__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/sfr_ca7_interface_package__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

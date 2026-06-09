@@ -1,0 +1,2 @@
+[console_scripts]
+node_that_uses_the_library = tesla.alternator._sample_function:mount

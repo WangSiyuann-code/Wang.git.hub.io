@@ -1,0 +1,24 @@
+[1.619s] Invoking command in '/home/student48/assessments/week8/src/toyota': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week8/build/toyota/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week8/install/toyota/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/toyota build --build-base /home/student48/assessments/week8/build/toyota/build install --record /home/student48/assessments/week8/build/toyota/install.log --single-version-externally-managed install_data
+[2.015s] running egg_info
+[2.042s] writing ../../build/toyota/toyota.egg-info/PKG-INFO
+[2.043s] writing dependency_links to ../../build/toyota/toyota.egg-info/dependency_links.txt
+[2.043s] writing entry points to ../../build/toyota/toyota.egg-info/entry_points.txt
+[2.044s] writing requirements to ../../build/toyota/toyota.egg-info/requires.txt
+[2.044s] writing top-level names to ../../build/toyota/toyota.egg-info/top_level.txt
+[2.115s] reading manifest file '../../build/toyota/toyota.egg-info/SOURCES.txt'
+[2.116s] writing manifest file '../../build/toyota/toyota.egg-info/SOURCES.txt'
+[2.116s] running build
+[2.116s] running build_py
+[2.117s] copying toyota/chair.py -> /home/student48/assessments/week8/build/toyota/build/lib/toyota
+[2.117s] running install
+[2.131s] running install_lib
+[2.161s] copying /home/student48/assessments/week8/build/toyota/build/lib/toyota/chair.py -> /home/student48/assessments/week8/install/toyota/lib/python3.12/site-packages/toyota
+[2.161s] byte-compiling /home/student48/assessments/week8/install/toyota/lib/python3.12/site-packages/toyota/chair.py to chair.cpython-312.pyc
+[2.163s] running install_data
+[2.163s] running install_egg_info
+[2.196s] removing '/home/student48/assessments/week8/install/toyota/lib/python3.12/site-packages/toyota-0.0.0-py3.12.egg-info' (and everything under it)
+[2.197s] Copying ../../build/toyota/toyota.egg-info to /home/student48/assessments/week8/install/toyota/lib/python3.12/site-packages/toyota-0.0.0-py3.12.egg-info
+[2.199s] running install_scripts
+[2.376s] Installing chair script to /home/student48/assessments/week8/install/toyota/lib/toyota
+[2.377s] writing list of installed files to '/home/student48/assessments/week8/build/toyota/install.log'
+[2.428s] Invoked command in '/home/student48/assessments/week8/src/toyota' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week8/build/toyota/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week8/install/toyota/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/toyota build --build-base /home/student48/assessments/week8/build/toyota/build install --record /home/student48/assessments/week8/build/toyota/install.log --single-version-externally-managed install_data

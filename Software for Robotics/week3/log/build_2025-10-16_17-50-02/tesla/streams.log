@@ -1,0 +1,19 @@
+[1.542s] Invoking command in '/home/student48/assessments/week3/src/tesla': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week3/build/tesla/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tesla build --build-base /home/student48/assessments/week3/build/tesla/build install --record /home/student48/assessments/week3/build/tesla/install.log --single-version-externally-managed install_data
+[1.919s] running egg_info
+[1.946s] writing ../../build/tesla/tesla.egg-info/PKG-INFO
+[1.947s] writing dependency_links to ../../build/tesla/tesla.egg-info/dependency_links.txt
+[1.947s] writing requirements to ../../build/tesla/tesla.egg-info/requires.txt
+[1.947s] writing top-level names to ../../build/tesla/tesla.egg-info/top_level.txt
+[2.042s] reading manifest file '../../build/tesla/tesla.egg-info/SOURCES.txt'
+[2.043s] writing manifest file '../../build/tesla/tesla.egg-info/SOURCES.txt'
+[2.044s] running build
+[2.044s] running build_py
+[2.044s] running install
+[2.052s] running install_lib
+[2.084s] running install_data
+[2.084s] running install_egg_info
+[2.116s] removing '/home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages/tesla-0.0.0-py3.12.egg-info' (and everything under it)
+[2.116s] Copying ../../build/tesla/tesla.egg-info to /home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages/tesla-0.0.0-py3.12.egg-info
+[2.118s] running install_scripts
+[2.301s] writing list of installed files to '/home/student48/assessments/week3/build/tesla/install.log'
+[2.359s] Invoked command in '/home/student48/assessments/week3/src/tesla' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week3/build/tesla/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tesla build --build-base /home/student48/assessments/week3/build/tesla/build install --record /home/student48/assessments/week3/build/tesla/install.log --single-version-externally-managed install_data

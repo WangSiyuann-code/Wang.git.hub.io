@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "sfr_coursework1_interface_package/msg/WheelAngularVelocities",
+      "fields": [
+        {
+          "name": "right_wheel_angular_velocity",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "left_wheel_angular_velocity",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "sfr_coursework1_interface_package/msg/WheelAngularVelocities",
+      "hash_string": "RIHS01_523e8287299596da7aa0bb2c3119e7cb509078c750a7185f4d949b1495894059"
+    }
+  ]
+}

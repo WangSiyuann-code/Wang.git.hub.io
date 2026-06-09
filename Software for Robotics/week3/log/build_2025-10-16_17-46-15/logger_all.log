@@ -1,0 +1,228 @@
+[0.138s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.138s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b1f890dc710>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b1f890dc5f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b1f890dc5f0>>, mixin_verb=('build',))
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.188s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student48/assessments/week3'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/dormitory) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/dormitory) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/dormitory) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/dormitory) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/dormitory) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/dormitory) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/dormitory) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/dormitory) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/dormitory) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dormitory' with type 'ros.ament_python' and name 'dormitory'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/python_package_that_uses_the_library' with type 'ros.ament_python' and name 'python_package_that_uses_the_library'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesla) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesla) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesla) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesla) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesla) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesla) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesla) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesla) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tesla) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tesla' with type 'ros.ament_python' and name 'tesla'
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.267s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/student48/assessments/week3/install
+[0.268s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/student48/ros2_tutorial_workspace/install
+[0.270s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dormitory' build argument 'cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dormitory' build argument 'cmake_target' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dormitory' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'dormitory' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'dormitory' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'dormitory' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'dormitory' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'dormitory' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'dormitory' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'dormitory' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student48/assessments/week3/build/dormitory', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student48/assessments/week3/install/dormitory', 'merge_install': False, 'path': '/home/student48/assessments/week3/src/dormitory', 'symlink_install': False, 'test_result_base': None}
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'tesla' build argument 'cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'tesla' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'tesla' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'tesla' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'tesla' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'tesla' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'tesla' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'tesla' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'tesla' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'tesla' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student48/assessments/week3/build/tesla', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student48/assessments/week3/install/tesla', 'merge_install': False, 'path': '/home/student48/assessments/week3/src/tesla', 'symlink_install': False, 'test_result_base': None}
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'python_package_that_uses_the_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student48/assessments/week3/build/python_package_that_uses_the_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student48/assessments/week3/install/python_package_that_uses_the_library', 'merge_install': False, 'path': '/home/student48/assessments/week3/src/python_package_that_uses_the_library', 'symlink_install': False, 'test_result_base': None}
+[0.318s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.319s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.319s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student48/assessments/week3/src/tesla' with build type 'ament_python'
+[0.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('tesla', 'ament_prefix_path')
+[0.322s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student48/assessments/week3/install/tesla/share/tesla/hook/ament_prefix_path.ps1'
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student48/assessments/week3/install/tesla/share/tesla/hook/ament_prefix_path.dsv'
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student48/assessments/week3/install/tesla/share/tesla/hook/ament_prefix_path.sh'
+[0.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.338s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student48/assessments/week3/src/dormitory' with build type 'ament_python'
+[0.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('dormitory', 'ament_prefix_path')
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student48/assessments/week3/install/dormitory/share/dormitory/hook/ament_prefix_path.ps1'
+[0.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student48/assessments/week3/install/dormitory/share/dormitory/hook/ament_prefix_path.dsv'
+[0.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student48/assessments/week3/install/dormitory/share/dormitory/hook/ament_prefix_path.sh'
+[0.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.708s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student48/assessments/week3/src/tesla'
+[0.708s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.708s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.053s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student48/assessments/week3/src/dormitory'
+[1.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.054s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student48/assessments/week3/src/tesla': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week3/build/tesla/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tesla build --build-base /home/student48/assessments/week3/build/tesla/build install --record /home/student48/assessments/week3/build/tesla/install.log --single-version-externally-managed install_data
+[1.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student48/assessments/week3/src/dormitory': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week3/build/dormitory/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dormitory build --build-base /home/student48/assessments/week3/build/dormitory/build install --record /home/student48/assessments/week3/build/dormitory/install.log --single-version-externally-managed install_data
+[2.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student48/assessments/week3/src/dormitory' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week3/build/dormitory/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dormitory build --build-base /home/student48/assessments/week3/build/dormitory/build install --record /home/student48/assessments/week3/build/dormitory/install.log --single-version-externally-managed install_data
+[2.713s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/dormitory' for CMake module files
+[2.714s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/dormitory' for CMake config files
+[2.715s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/dormitory/lib'
+[2.715s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/dormitory/bin'
+[2.715s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/dormitory/lib/pkgconfig/dormitory.pc'
+[2.715s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages'
+[2.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('dormitory', 'pythonpath')
+[2.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student48/assessments/week3/install/dormitory/share/dormitory/hook/pythonpath.ps1'
+[2.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student48/assessments/week3/install/dormitory/share/dormitory/hook/pythonpath.dsv'
+[2.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student48/assessments/week3/install/dormitory/share/dormitory/hook/pythonpath.sh'
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/dormitory/bin'
+[2.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dormitory)
+[2.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/student48/assessments/week3/install/dormitory/share/dormitory/package.ps1'
+[2.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student48/assessments/week3/install/dormitory/share/dormitory/package.dsv'
+[2.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/student48/assessments/week3/install/dormitory/share/dormitory/package.sh'
+[2.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/student48/assessments/week3/install/dormitory/share/dormitory/package.bash'
+[2.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/student48/assessments/week3/install/dormitory/share/dormitory/package.zsh'
+[2.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student48/assessments/week3/install/dormitory/share/colcon-core/packages/dormitory)
+[2.806s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/tesla' for CMake module files
+[2.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student48/assessments/week3/src/tesla' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week3/build/tesla/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tesla build --build-base /home/student48/assessments/week3/build/tesla/build install --record /home/student48/assessments/week3/build/tesla/install.log --single-version-externally-managed install_data
+[2.808s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/tesla' for CMake config files
+[2.809s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/tesla/lib'
+[2.809s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/tesla/bin'
+[2.809s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/tesla/lib/pkgconfig/tesla.pc'
+[2.810s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages'
+[2.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('tesla', 'pythonpath')
+[2.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student48/assessments/week3/install/tesla/share/tesla/hook/pythonpath.ps1'
+[2.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student48/assessments/week3/install/tesla/share/tesla/hook/pythonpath.dsv'
+[2.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student48/assessments/week3/install/tesla/share/tesla/hook/pythonpath.sh'
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/tesla/bin'
+[2.814s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tesla)
+[2.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/student48/assessments/week3/install/tesla/share/tesla/package.ps1'
+[2.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student48/assessments/week3/install/tesla/share/tesla/package.dsv'
+[2.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/student48/assessments/week3/install/tesla/share/tesla/package.sh'
+[2.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/student48/assessments/week3/install/tesla/share/tesla/package.bash'
+[2.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/student48/assessments/week3/install/tesla/share/tesla/package.zsh'
+[2.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student48/assessments/week3/install/tesla/share/colcon-core/packages/tesla)
+[2.819s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student48/assessments/week3/src/python_package_that_uses_the_library' with build type 'ament_python'
+[2.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_package_that_uses_the_library', 'ament_prefix_path')
+[2.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student48/assessments/week3/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/ament_prefix_path.ps1'
+[2.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student48/assessments/week3/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/ament_prefix_path.dsv'
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student48/assessments/week3/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/ament_prefix_path.sh'
+[2.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.170s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student48/assessments/week3/src/python_package_that_uses_the_library'
+[3.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.170s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student48/assessments/week3/src/python_package_that_uses_the_library': AMENT_PREFIX_PATH=/home/student48/assessments/week3/install/tesla:/home/student48/assessments/week3/install/python_package_that_uses_the_library:/home/student48/assessments/week3/install/dormitory:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_packagee:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_package:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_node:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_library:/home/student48/ros2_tutorial_workspace/install/my_package:/home/student48/ros2_tutorial_workspace/install/custom_package_with_node:/home/student48/ros2_tutorial_workspace/install/custom_package_with_library:/home/student48/ros2_tutorial_workspace/install/another_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week3/build/python_package_that_uses_the_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week3/install/python_package_that_uses_the_library/lib/python3.12/site-packages:/home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages:/home/student48/assessments/week3/install/python_package_that_uses_the_library/lib/python3.12/site-packages:/home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_packagee/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/my_package/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/custom_package_with_node/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/custom_package_with_library/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/another_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_that_uses_the_library build --build-base /home/student48/assessments/week3/build/python_package_that_uses_the_library/build install --record /home/student48/assessments/week3/build/python_package_that_uses_the_library/install.log --single-version-externally-managed install_data
+[4.742s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/python_package_that_uses_the_library' for CMake module files
+[4.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student48/assessments/week3/src/python_package_that_uses_the_library' returned '0': AMENT_PREFIX_PATH=/home/student48/assessments/week3/install/tesla:/home/student48/assessments/week3/install/python_package_that_uses_the_library:/home/student48/assessments/week3/install/dormitory:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_packagee:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_package:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_node:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_library:/home/student48/ros2_tutorial_workspace/install/my_package:/home/student48/ros2_tutorial_workspace/install/custom_package_with_node:/home/student48/ros2_tutorial_workspace/install/custom_package_with_library:/home/student48/ros2_tutorial_workspace/install/another_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week3/build/python_package_that_uses_the_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week3/install/python_package_that_uses_the_library/lib/python3.12/site-packages:/home/student48/assessments/week3/install/tesla/lib/python3.12/site-packages:/home/student48/assessments/week3/install/python_package_that_uses_the_library/lib/python3.12/site-packages:/home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_packagee/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/my_package/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/custom_package_with_node/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/custom_package_with_library/lib/python3.12/site-packages:/home/student48/ros2_tutorial_workspace/install/another_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_that_uses_the_library build --build-base /home/student48/assessments/week3/build/python_package_that_uses_the_library/build install --record /home/student48/assessments/week3/build/python_package_that_uses_the_library/install.log --single-version-externally-managed install_data
+[4.744s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/python_package_that_uses_the_library' for CMake config files
+[4.746s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/python_package_that_uses_the_library/lib'
+[4.746s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/python_package_that_uses_the_library/bin'
+[4.746s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/python_package_that_uses_the_library/lib/pkgconfig/python_package_that_uses_the_library.pc'
+[4.747s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/python_package_that_uses_the_library/lib/python3.12/site-packages'
+[4.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_package_that_uses_the_library', 'pythonpath')
+[4.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student48/assessments/week3/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/pythonpath.ps1'
+[4.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student48/assessments/week3/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/pythonpath.dsv'
+[4.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student48/assessments/week3/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/pythonpath.sh'
+[4.750s] Level 1:colcon.colcon_core.environment:checking '/home/student48/assessments/week3/install/python_package_that_uses_the_library/bin'
+[4.751s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_package_that_uses_the_library)
+[4.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/student48/assessments/week3/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.ps1'
+[4.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student48/assessments/week3/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.dsv'
+[4.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/student48/assessments/week3/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.sh'
+[4.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/student48/assessments/week3/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.bash'
+[4.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/student48/assessments/week3/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.zsh'
+[4.755s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student48/assessments/week3/install/python_package_that_uses_the_library/share/colcon-core/packages/python_package_that_uses_the_library)
+[4.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.756s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.773s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.774s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.774s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.806s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.806s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student48/assessments/week3/install/local_setup.ps1'
+[4.808s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student48/assessments/week3/install/_local_setup_util_ps1.py'
+[4.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student48/assessments/week3/install/setup.ps1'
+[4.811s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student48/assessments/week3/install/local_setup.sh'
+[4.812s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student48/assessments/week3/install/_local_setup_util_sh.py'
+[4.813s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student48/assessments/week3/install/setup.sh'
+[4.815s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student48/assessments/week3/install/local_setup.bash'
+[4.816s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student48/assessments/week3/install/setup.bash'
+[4.818s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student48/assessments/week3/install/local_setup.zsh'
+[4.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student48/assessments/week3/install/setup.zsh'

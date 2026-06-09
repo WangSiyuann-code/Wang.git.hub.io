@@ -1,0 +1,21 @@
+[2.179s] Invoking command in '/home/student48/assessments/week3/src/dormitory': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week3/build/dormitory/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dormitory build --build-base /home/student48/assessments/week3/build/dormitory/build install --record /home/student48/assessments/week3/build/dormitory/install.log --single-version-externally-managed install_data
+[2.748s] running egg_info
+[2.782s] writing ../../build/dormitory/dormitory.egg-info/PKG-INFO
+[2.783s] writing dependency_links to ../../build/dormitory/dormitory.egg-info/dependency_links.txt
+[2.783s] writing entry points to ../../build/dormitory/dormitory.egg-info/entry_points.txt
+[2.784s] writing requirements to ../../build/dormitory/dormitory.egg-info/requires.txt
+[2.784s] writing top-level names to ../../build/dormitory/dormitory.egg-info/top_level.txt
+[2.921s] reading manifest file '../../build/dormitory/dormitory.egg-info/SOURCES.txt'
+[2.926s] writing manifest file '../../build/dormitory/dormitory.egg-info/SOURCES.txt'
+[2.926s] running build
+[2.927s] running build_py
+[2.928s] running install
+[2.940s] running install_lib
+[3.004s] running install_data
+[3.005s] running install_egg_info
+[3.070s] removing '/home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages/dormitory-0.0.0-py3.12.egg-info' (and everything under it)
+[3.071s] Copying ../../build/dormitory/dormitory.egg-info to /home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages/dormitory-0.0.0-py3.12.egg-info
+[3.074s] running install_scripts
+[3.377s] Installing team_locker script to /home/student48/assessments/week3/install/dormitory/lib/dormitory
+[3.377s] writing list of installed files to '/home/student48/assessments/week3/build/dormitory/install.log'
+[3.418s] Invoked command in '/home/student48/assessments/week3/src/dormitory' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/week3/build/dormitory/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/week3/install/dormitory/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dormitory build --build-base /home/student48/assessments/week3/build/dormitory/build install --record /home/student48/assessments/week3/build/dormitory/install.log --single-version-externally-managed install_data

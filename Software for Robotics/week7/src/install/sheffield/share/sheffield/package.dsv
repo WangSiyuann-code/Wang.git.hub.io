@@ -1,0 +1,6 @@
+source;share/sheffield/hook/pythonpath.ps1
+source;share/sheffield/hook/pythonpath.dsv
+source;share/sheffield/hook/pythonpath.sh
+source;share/sheffield/hook/ament_prefix_path.ps1
+source;share/sheffield/hook/ament_prefix_path.dsv
+source;share/sheffield/hook/ament_prefix_path.sh

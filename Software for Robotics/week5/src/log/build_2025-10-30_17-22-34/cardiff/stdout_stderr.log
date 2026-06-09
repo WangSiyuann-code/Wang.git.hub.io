@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/cardiff/cardiff.egg-info
+writing ../build/cardiff/cardiff.egg-info/PKG-INFO
+writing dependency_links to ../build/cardiff/cardiff.egg-info/dependency_links.txt
+writing entry points to ../build/cardiff/cardiff.egg-info/entry_points.txt
+writing requirements to ../build/cardiff/cardiff.egg-info/requires.txt
+writing top-level names to ../build/cardiff/cardiff.egg-info/top_level.txt
+writing manifest file '../build/cardiff/cardiff.egg-info/SOURCES.txt'
+reading manifest file '../build/cardiff/cardiff.egg-info/SOURCES.txt'
+writing manifest file '../build/cardiff/cardiff.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student48/assessments/week5/src/build/cardiff/build
+creating /home/student48/assessments/week5/src/build/cardiff/build/lib
+creating /home/student48/assessments/week5/src/build/cardiff/build/lib/cardiff
+copying cardiff/grape.py -> /home/student48/assessments/week5/src/build/cardiff/build/lib/cardiff
+copying cardiff/__init__.py -> /home/student48/assessments/week5/src/build/cardiff/build/lib/cardiff
+running install
+running install_lib
+creating /home/student48/assessments/week5/src/install/cardiff/lib/python3.12/site-packages/cardiff
+copying /home/student48/assessments/week5/src/build/cardiff/build/lib/cardiff/grape.py -> /home/student48/assessments/week5/src/install/cardiff/lib/python3.12/site-packages/cardiff
+copying /home/student48/assessments/week5/src/build/cardiff/build/lib/cardiff/__init__.py -> /home/student48/assessments/week5/src/install/cardiff/lib/python3.12/site-packages/cardiff
+byte-compiling /home/student48/assessments/week5/src/install/cardiff/lib/python3.12/site-packages/cardiff/grape.py to grape.cpython-312.pyc
+byte-compiling /home/student48/assessments/week5/src/install/cardiff/lib/python3.12/site-packages/cardiff/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/student48/assessments/week5/src/install/cardiff/share/ament_index
+creating /home/student48/assessments/week5/src/install/cardiff/share/ament_index/resource_index
+creating /home/student48/assessments/week5/src/install/cardiff/share/ament_index/resource_index/packages
+copying resource/cardiff -> /home/student48/assessments/week5/src/install/cardiff/share/ament_index/resource_index/packages
+copying package.xml -> /home/student48/assessments/week5/src/install/cardiff/share/cardiff
+running install_egg_info
+Copying ../build/cardiff/cardiff.egg-info to /home/student48/assessments/week5/src/install/cardiff/lib/python3.12/site-packages/cardiff-0.0.0-py3.12.egg-info
+running install_scripts
+Installing grape script to /home/student48/assessments/week5/src/install/cardiff/lib/cardiff
+writing list of installed files to '/home/student48/assessments/week5/src/build/cardiff/install.log'

@@ -1,0 +1,37 @@
+[2.579s] Invoking command in '/home/student48/assessments/coursework2/src/gamma_system_bridge_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamma_system_bridge_pkg build --build-base /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/build install --record /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/install.log --single-version-externally-managed install_data
+[3.289s] running egg_info
+[3.289s] creating ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info
+[3.340s] writing ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/PKG-INFO
+[3.340s] writing dependency_links to ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/dependency_links.txt
+[3.341s] writing requirements to ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/requires.txt
+[3.342s] writing top-level names to ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/top_level.txt
+[3.342s] writing manifest file '../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/SOURCES.txt'
+[3.459s] reading manifest file '../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/SOURCES.txt'
+[3.460s] writing manifest file '../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info/SOURCES.txt'
+[3.460s] running build
+[3.460s] running build_py
+[3.461s] creating /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/build
+[3.461s] creating /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/build/lib
+[3.461s] creating /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/build/lib/gamma_system_bridge_pkg
+[3.461s] copying gamma_system_bridge_pkg/__init__.py -> /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/build/lib/gamma_system_bridge_pkg
+[3.462s] running install
+[3.471s] running install_lib
+[3.530s] creating /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/lib/python3.12/site-packages/gamma_system_bridge_pkg
+[3.530s] copying /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/build/lib/gamma_system_bridge_pkg/__init__.py -> /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/lib/python3.12/site-packages/gamma_system_bridge_pkg
+[3.532s] byte-compiling /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/lib/python3.12/site-packages/gamma_system_bridge_pkg/__init__.py to __init__.cpython-312.pyc
+[3.533s] running install_data
+[3.534s] creating /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/ament_index
+[3.535s] creating /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/ament_index/resource_index
+[3.535s] creating /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/ament_index/resource_index/packages
+[3.535s] copying resource/gamma_system_bridge_pkg -> /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/ament_index/resource_index/packages
+[3.535s] copying package.xml -> /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/gamma_system_bridge_pkg
+[3.536s] creating /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/gamma_system_bridge_pkg/launch
+[3.536s] copying launch/gamma_system_bridge_launch.py -> /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/gamma_system_bridge_pkg/launch
+[3.536s] creating /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/gamma_system_bridge_pkg/config_bridge
+[3.536s] copying config_bridge/control_shape_thrust.yaml -> /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/gamma_system_bridge_pkg/config_bridge
+[3.536s] copying config_bridge/bridge_config.yaml -> /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/share/gamma_system_bridge_pkg/config_bridge
+[3.537s] running install_egg_info
+[3.576s] Copying ../../build/gamma_system_bridge_pkg/gamma_system_bridge_pkg.egg-info to /home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/lib/python3.12/site-packages/gamma_system_bridge_pkg-0.0.0-py3.12.egg-info
+[3.578s] running install_scripts
+[4.144s] writing list of installed files to '/home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/install.log'
+[4.220s] Invoked command in '/home/student48/assessments/coursework2/src/gamma_system_bridge_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student48/assessments/coursework2/install/gamma_system_bridge_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gamma_system_bridge_pkg build --build-base /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/build install --record /home/student48/assessments/coursework2/build/gamma_system_bridge_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+source;share/cardiff/hook/pythonpath.ps1
+source;share/cardiff/hook/pythonpath.dsv
+source;share/cardiff/hook/pythonpath.sh
+source;share/cardiff/hook/ament_prefix_path.ps1
+source;share/cardiff/hook/ament_prefix_path.dsv
+source;share/cardiff/hook/ament_prefix_path.sh

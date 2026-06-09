@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/sheffield/sheffield.egg-info
+writing ../build/sheffield/sheffield.egg-info/PKG-INFO
+writing dependency_links to ../build/sheffield/sheffield.egg-info/dependency_links.txt
+writing entry points to ../build/sheffield/sheffield.egg-info/entry_points.txt
+writing requirements to ../build/sheffield/sheffield.egg-info/requires.txt
+writing top-level names to ../build/sheffield/sheffield.egg-info/top_level.txt
+writing manifest file '../build/sheffield/sheffield.egg-info/SOURCES.txt'
+reading manifest file '../build/sheffield/sheffield.egg-info/SOURCES.txt'
+writing manifest file '../build/sheffield/sheffield.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student48/assessments/week7/src/build/sheffield/build
+creating /home/student48/assessments/week7/src/build/sheffield/build/lib
+creating /home/student48/assessments/week7/src/build/sheffield/build/lib/sheffield
+copying sheffield/__init__.py -> /home/student48/assessments/week7/src/build/sheffield/build/lib/sheffield
+copying sheffield/nectarine.py -> /home/student48/assessments/week7/src/build/sheffield/build/lib/sheffield
+running install
+running install_lib
+creating /home/student48/assessments/week7/src/install/sheffield/lib/python3.12/site-packages/sheffield
+copying /home/student48/assessments/week7/src/build/sheffield/build/lib/sheffield/__init__.py -> /home/student48/assessments/week7/src/install/sheffield/lib/python3.12/site-packages/sheffield
+copying /home/student48/assessments/week7/src/build/sheffield/build/lib/sheffield/nectarine.py -> /home/student48/assessments/week7/src/install/sheffield/lib/python3.12/site-packages/sheffield
+byte-compiling /home/student48/assessments/week7/src/install/sheffield/lib/python3.12/site-packages/sheffield/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/student48/assessments/week7/src/install/sheffield/lib/python3.12/site-packages/sheffield/nectarine.py to nectarine.cpython-312.pyc
+running install_data
+creating /home/student48/assessments/week7/src/install/sheffield/share/ament_index
+creating /home/student48/assessments/week7/src/install/sheffield/share/ament_index/resource_index
+creating /home/student48/assessments/week7/src/install/sheffield/share/ament_index/resource_index/packages
+copying resource/sheffield -> /home/student48/assessments/week7/src/install/sheffield/share/ament_index/resource_index/packages
+copying package.xml -> /home/student48/assessments/week7/src/install/sheffield/share/sheffield
+running install_egg_info
+Copying ../build/sheffield/sheffield.egg-info to /home/student48/assessments/week7/src/install/sheffield/lib/python3.12/site-packages/sheffield-0.0.0-py3.12.egg-info
+running install_scripts
+Installing nectarine script to /home/student48/assessments/week7/src/install/sheffield/lib/sheffield
+writing list of installed files to '/home/student48/assessments/week7/src/build/sheffield/install.log'

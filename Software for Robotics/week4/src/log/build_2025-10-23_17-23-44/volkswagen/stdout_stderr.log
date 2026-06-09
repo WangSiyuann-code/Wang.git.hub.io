@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/volkswagen/volkswagen.egg-info
+writing ../build/volkswagen/volkswagen.egg-info/PKG-INFO
+writing dependency_links to ../build/volkswagen/volkswagen.egg-info/dependency_links.txt
+writing entry points to ../build/volkswagen/volkswagen.egg-info/entry_points.txt
+writing requirements to ../build/volkswagen/volkswagen.egg-info/requires.txt
+writing top-level names to ../build/volkswagen/volkswagen.egg-info/top_level.txt
+writing manifest file '../build/volkswagen/volkswagen.egg-info/SOURCES.txt'
+reading manifest file '../build/volkswagen/volkswagen.egg-info/SOURCES.txt'
+writing manifest file '../build/volkswagen/volkswagen.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student48/assessments/week4/src/build/volkswagen/build
+creating /home/student48/assessments/week4/src/build/volkswagen/build/lib
+creating /home/student48/assessments/week4/src/build/volkswagen/build/lib/volkswagen
+copying volkswagen/battery.py -> /home/student48/assessments/week4/src/build/volkswagen/build/lib/volkswagen
+copying volkswagen/__init__.py -> /home/student48/assessments/week4/src/build/volkswagen/build/lib/volkswagen
+running install
+running install_lib
+creating /home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages/volkswagen
+copying /home/student48/assessments/week4/src/build/volkswagen/build/lib/volkswagen/battery.py -> /home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages/volkswagen
+copying /home/student48/assessments/week4/src/build/volkswagen/build/lib/volkswagen/__init__.py -> /home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages/volkswagen
+byte-compiling /home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages/volkswagen/battery.py to battery.cpython-312.pyc
+byte-compiling /home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages/volkswagen/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/student48/assessments/week4/src/install/volkswagen/share/ament_index
+creating /home/student48/assessments/week4/src/install/volkswagen/share/ament_index/resource_index
+creating /home/student48/assessments/week4/src/install/volkswagen/share/ament_index/resource_index/packages
+copying resource/volkswagen -> /home/student48/assessments/week4/src/install/volkswagen/share/ament_index/resource_index/packages
+copying package.xml -> /home/student48/assessments/week4/src/install/volkswagen/share/volkswagen
+running install_egg_info
+Copying ../build/volkswagen/volkswagen.egg-info to /home/student48/assessments/week4/src/install/volkswagen/lib/python3.12/site-packages/volkswagen-0.0.0-py3.12.egg-info
+running install_scripts
+Installing battery script to /home/student48/assessments/week4/src/install/volkswagen/lib/volkswagen
+writing list of installed files to '/home/student48/assessments/week4/src/build/volkswagen/install.log'

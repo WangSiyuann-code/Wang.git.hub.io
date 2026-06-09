@@ -1,0 +1,4 @@
+/home/student48/assessments/coursework1/build/sfr_coursework1_interface_package/rosidl_adapter/sfr_coursework1_interface_package:msg/TaskSpacePose.idl
+/home/student48/assessments/coursework1/build/sfr_coursework1_interface_package/rosidl_adapter/sfr_coursework1_interface_package:msg/WheelAngularVelocities.idl
+/home/student48/assessments/coursework1/build/sfr_coursework1_interface_package/rosidl_adapter/sfr_coursework1_interface_package:srv/TurnRobotOff.idl
+/home/student48/assessments/coursework1/build/sfr_coursework1_interface_package/rosidl_adapter/sfr_coursework1_interface_package:srv/TurnRobotOn.idl

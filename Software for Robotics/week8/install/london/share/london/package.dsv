@@ -1,0 +1,6 @@
+source;share/london/hook/pythonpath.ps1
+source;share/london/hook/pythonpath.dsv
+source;share/london/hook/pythonpath.sh
+source;share/london/hook/ament_prefix_path.ps1
+source;share/london/hook/ament_prefix_path.dsv
+source;share/london/hook/ament_prefix_path.sh

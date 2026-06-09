@@ -1,0 +1,2 @@
+[console_scripts]
+nectarine = sheffield.nectarine:main
